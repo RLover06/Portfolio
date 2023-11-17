@@ -1,6 +1,6 @@
-<script>
-	export let linkURL = '';
-	export let imgURL = '';
+<script lang="ts">
+	export let linkURL: string = '';
+	export let imgURL: string = '';
 </script>
 
 <a href={linkURL}>
