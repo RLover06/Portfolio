@@ -18,7 +18,7 @@
 			<div transition:blur={{ duration: 3500 }}>
 				Education:
 				<a href="https://launchschool.com/courses" target="_blank">
-					<span class="font-semibold text-green-400 italic"> University of Houston <span class="hidden md:block">(BBA in Marketing)</span> </span>
+					<span class="font-semibold text-green-300 italic"> University of Houston <span class="hidden md:inline">(BBA in Marketing)</span> </span>
 				</a>
 				<br />
 			</div>
@@ -27,7 +27,7 @@
 				Certifications:
 				<a href="https://launchschool.com/courses" target="_blank">
 					<span class="font-semibold text-green-300 italic">
-						Launch School <span class="hidden md:block">(Core Curriculum)</span>
+						Launch School <span class="hidden md:inline">(Core Curriculum)</span>
 					</span>
 				</a>
 			</div>
