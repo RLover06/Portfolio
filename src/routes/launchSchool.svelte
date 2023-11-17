@@ -30,7 +30,9 @@
 				touching higher-level abstractions, and this is what makes the core curriculum so special.
 			</p>
 			<a href="https://launchschool.com/courses" target="_blank">
-				<button class="mt-8 p-2 text-indigo-200 bg-indigo-500 rounded-md glow-box"> View Curriculum </button>
+				<button class="mt-8 p-2 0 bg-red-400 rounded-md glow-box">
+					<span class=" bg-gradient-to-r from-slate-300 to-white text-transparent bg-clip-text"> View Curriculum </span>
+				</button>
 			</a>
 		</div>
 	</div>
