@@ -1,4 +1,16 @@
-<div class="bg-transparent mx-2 p-6 md:mx-48 py-32 my-16 lg:px-8 text-left rounded-md bg-gradient-to-b from-slate-300 to-slate-100 glow-box">
+<!-- <div class="relative mt-6">
+	<svg viewBox="0 0 1208 1024" class="absolute -top-24 left-1/2 -z-10 h-[48rem] md:h-[80rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]">
+		<ellipse cx="604" cy="512" fill="url(#6d1bd035-0dd1-437e-93fa-59d316231eb0)" rx="604" ry="512" />
+		<defs>
+			<radialGradient id="6d1bd035-0dd1-437e-93fa-59d316231eb0">
+				<stop stop-color="#5800FF" />
+				<stop offset="1" stop-color="#5800FF" />
+			</radialGradient>
+		</defs>
+	</svg>
+</div> -->
+
+<div class="bg-transparent mx-2 p-6 md:mx-48 py-32 my-16 lg:px-8 text-left rounded-md bg-gradient-to-b from-slate-300 to-slate-100 object-cover glow-box">
 	<div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
 		<p class="text-base font-semibold leading-7 text-indigo-600">Bio</p>
 		<h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-700 sm:text-4xl">Hey there! 👋</h1>
