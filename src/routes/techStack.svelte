@@ -11,6 +11,7 @@
 					<Icon linkURL="https://www.typescriptlang.org/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
 					<Icon linkURL="https://en.wikipedia.org/wiki/JavaScript" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 					<Icon linkURL="https://nodejs.org/en" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+					<Icon linkURL="https://vitejs.dev/" imgURL="vite.png" />
 					<Icon linkURL="https://react.dev/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
 					<Icon linkURL="https://svelte.dev/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" />
 					<Icon linkURL="https://en.wikipedia.org/wiki/MongoDB" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
@@ -19,6 +20,7 @@
 					<Icon linkURL="https://en.wikipedia.org/wiki/HTML5" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
 					<Icon linkURL="https://developer.mozilla.org/en-US/docs/Web/CSS" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
 					<Icon linkURL="https://tailwindcss.com/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+					<Icon linkURL="https://vitest.dev/" imgURL="vite-test.png" />
 					<Icon linkURL="https://jestjs.io/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
 					<Icon linkURL="https://en.wikipedia.org/wiki/Heroku" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" />
 					<Icon linkURL="https://en.wikipedia.org/wiki/Google_Cloud_Platform" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" />

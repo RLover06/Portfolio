@@ -5,10 +5,12 @@
 		{ linkURL: 'https://www.typescriptlang.org/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
 		{ linkURL: 'https://svelte.dev/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg' },
 		{ linkURL: 'https://nodejs.org/en', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
+		{ linkURL: 'https://vitejs.dev/', imgURL: 'vite.png' },
 		{ linkURL: 'https://en.wikipedia.org/wiki/MongoDB', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
 		{ linkURL: 'https://firebase.google.com/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' },
 		{ linkURL: 'https://tailwindcss.com/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg' },
-		{ linkURL: 'https://stripe.com/', imgURL: 'https://www.solodev.com/file/2e7ff4de-48b3-11ed-bb2e-0eaef3759f5f/stripe-icon.png' }
+		{ linkURL: 'https://stripe.com/', imgURL: 'https://www.solodev.com/file/2e7ff4de-48b3-11ed-bb2e-0eaef3759f5f/stripe-icon.png' },
+		{ linkURL: 'https://vitest.dev/', imgURL: 'vite-test.png' }
 	];
 
 	const data_forest_icons = [
