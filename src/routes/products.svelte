@@ -17,6 +17,7 @@
 		{ linkURL: 'https://www.typescriptlang.org/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
 		{ linkURL: 'https://svelte.dev/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg' },
 		{ linkURL: 'https://nodejs.org/en', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
+		{ linkURL: 'https://vitejs.dev/', imgURL: 'vite.png' },
 		{ linkURL: 'https://en.wikipedia.org/wiki/MongoDB', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
 		{ linkURL: 'https://firebase.google.com/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' },
 		{ linkURL: 'https://tailwindcss.com/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg' }
@@ -26,6 +27,7 @@
 		{ linkURL: 'https://en.wikipedia.org/wiki/JavaScript', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
 		{ linkURL: 'https://svelte.dev/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg' },
 		{ linkURL: 'https://nodejs.org/en', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
+		{ linkURL: 'https://vitejs.dev/', imgURL: 'vite.png' },
 		{ linkURL: 'https://en.wikipedia.org/wiki/MongoDB', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
 		{ linkURL: 'https://tailwindcss.com/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg' },
 		{ linkURL: 'https://www.algolia.com/', imgURL: 'https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/12_Algolia_logo_logos-512.png' },
