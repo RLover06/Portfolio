@@ -51,7 +51,7 @@
 				<p class="mt-6">
 					The Spanish language has been many things to me. It has been a teacher, teaching me dedication, patience, and discipline. It has also been a vehicle for self-confidence. And after non-stop intense study,
 					Spanish is now a part of my identity. I've spent the last 5 years living among the Latino community, taking the opportunity to listen, learn and eventually gain a deep understanding. <br /><br /> I've
-					integrated many positive aspects of the Latin American lifestyle into my own life, with the most important lesson at the top of mind - <strong class="font-semibold text-gray-900">Love life</strong>
+					integrated many positive aspects of the Latin American lifestyle into my own life, with the most important lesson at the top of mind - <strong class="circle">Love life</strong>
 					<br /><br />
 					<span class="text-indigo-600 font-thin italic">Currently - B2</span> <span class="mx-4 text-indigo-600 font-thin italic"> Goal - C1 (Dec. 2024)</span>
 				</p>
