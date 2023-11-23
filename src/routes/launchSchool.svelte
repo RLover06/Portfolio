@@ -1,3 +1,7 @@
+<script>
+	import Button from '$lib/components/button.svelte';
+</script>
+
 <div class="bg-slate-950">
 	<div class="mx-auto max-w-7xl py-12 px-4 sm:py-16 sm:px-6 lg:px-8 lg:py-24">
 		<img src="logo-ls.png" class="mx-auto w-3/4 md:w-1/3 my-4" alt="" />
@@ -22,18 +26,14 @@
 		<!-- Reflection on LS -->
 		<div class="bg-white mt-8 lg:mx-48 px-6 py-8 rounded-md bg-gradient-to-b from-slate-300 to-slate-100 glow-box">
 			<h2 class="mt-4 text-2xl font-bold tracking-tight text-gray-900">Notes on Launch School</h2>
-			<p class="mt-6 text-gray-600">
+			<p class="my-6 text-gray-600">
 				Launch School was one of the hardest things I have ever done. It was also one of the most rewarding. During my time at Launch School, I learned much more than syntax and semantics, I learned attention to detail
 				and adopted a procedural mindset.
 				<br /><br />
 				The core curriculum begins with first principles, which is by no means an attractive way to start, but it highlights the seriousness of the program. A complete understanding of the fundamentals is required before
 				touching higher-level abstractions, and this is what makes the core curriculum so special.
 			</p>
-			<a href="https://launchschool.com/courses" target="_blank">
-				<button class="mt-8 p-2 0 bg-red-400 rounded-md glow-box">
-					<span class=" bg-gradient-to-r from-slate-300 to-white text-transparent bg-clip-text"> View Curriculum </span>
-				</button>
-			</a>
+			<Button text={'View Curriculum'} href={'https://launchschool.com/courses'} />
 		</div>
 	</div>
 </div>
