@@ -7,12 +7,20 @@ body {
 		text-shadow: 5px 5px 25px #757575, 0px 0px 20px #614ad3;
 	}
 
+	.glow-red {
+		text-shadow: 5px 5px 25px #757575, 0px 0px 20px #c64653;
+	}
+
 	.glow-green {
 		text-shadow: 5px 5px 25px #757575, 0px 0px 20px #5bc461;
 	}
 
 	.glow-box {
 		box-shadow: 5px 5px 25px #757575, 0px 0px 20px #614ad3;
+	}
+
+	.glow-box-red {
+		box-shadow: 5px 5px 25px #757575, 0px 0px 20px #c64653;
 	}
 
 	.glow-box-lang {
