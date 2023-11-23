@@ -10,10 +10,10 @@
 	</svg>
 </div> -->
 
-<div class="bg-transparent mx-2 p-6 md:mx-48 py-32 my-16 lg:px-8 text-left rounded-md bg-gradient-to-b from-slate-300 to-slate-100 object-cover glow-box">
+<div class="mx-2 p-6 md:mx-48 py-32 my-16 lg:px-8 text-left rounded-md bg-slate-200 object-cover glow-box">
 	<div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
 		<p class="text-base font-semibold leading-7 text-indigo-600">Bio</p>
-		<h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-700 sm:text-4xl">Hey there! 👋</h1>
+		<h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-700 sm:text-4xl hover:wave">Hey there! <span class="wave">👋</span></h1>
 		<p class="mt-6 text-xl leading-8">I am Hunter, from The Woodlands, Texas - just north of Houston. As a full-stack developer, I enjoy building applications of all kinds with people from all over the world.</p>
 		<div class="mt-10 max-w-2xl">
 			<div>
@@ -46,7 +46,6 @@
 					</li>
 				</ul>
 
-				<!-- <p class="mt-8">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.</p> -->
 				<h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">Notes on Spanish</h2>
 				<p class="mt-6">
 					The Spanish language has been many things to me. It has been a teacher, teaching me dedication, patience, and discipline. It has also been a vehicle for self-confidence. And after non-stop intense study,
