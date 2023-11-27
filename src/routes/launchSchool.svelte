@@ -1,8 +1,9 @@
 <script>
 	import Button from '$lib/components/button.svelte';
+	let isHovered = false;
 </script>
 
-<div class="bg-slate-950">
+<div on:mouseover={() => (isHovered = true)} on:mouseout={() => (isHovered = false)} on:focus={() => (isHovered = true)} on:blur={() => (isHovered = false)} class="bg-slate-950">
 	<div class="mx-auto max-w-7xl py-12 px-4 sm:py-16 sm:px-6 lg:px-8 lg:py-24">
 		<img src="logo-ls.png" class="mx-auto w-3/4 md:w-1/3 my-4" alt="" />
 		<div class="mx-auto max-w-4xl text-center">
@@ -32,9 +33,9 @@
 				<br /><br />
 				The core curriculum begins with first principles, which is by no means an attractive way to start, but it highlights the seriousness of the program. A complete understanding of the fundamentals is required before
 				touching higher-level abstractions, and this is what makes the core curriculum so special.
-				<span class="text-xl">✨</span>
+				<span class="text-xl" class:hithere={isHovered}>🎉</span>
 			</p>
-			<Button text={'View Curriculum'} href={'https://launchschool.com/courses'} bgColor={'hsl(349, 98%, 58%)'} bgDepthColor={'hsl(340, 97%, 38%)'} />
+			<Button text={'View Curriculum'} href={'https://launchschool.com/courses'} targetBlank={true} bgColor={'hsl(349, 98%, 58%)'} bgDepthColor={'hsl(340, 97%, 38%)'} />
 		</div>
 	</div>
 </div>

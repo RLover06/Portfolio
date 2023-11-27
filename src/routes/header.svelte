@@ -25,10 +25,10 @@
 	</div>
 
 	<div class="px-2 pt-2 pb-3 hidden md:block">
-		<a href="#skills" class="font-medium text-gray-100 hover:text-green-300 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Technologies</a>
-		<a href="#products" class="ml-10 font-medium text-gray-100 hover:text-green-300 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Products</a>
-		<a href="#contact" class="ml-10 font-medium text-gray-100 hover:text-green-300 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Contact</a>
-		<a href="#favorites" class="ml-10 font-medium text-gray-100 hover:text-green-300 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Favorites</a>
+		<a href="#skills" class="font-medium text-gray-100 hover:text-indigo-300 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Technologies</a>
+		<a href="#products" class="ml-10 font-medium text-gray-100 hover:text-indigo-300 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Products</a>
+		<a href="#contact" class="ml-10 font-medium text-gray-100 hover:text-indigo-300 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Contact</a>
+		<a href="#favorites" class="ml-10 font-medium text-gray-100 hover:text-indigo-300 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Favorites</a>
 	</div>
 
 	<div transition:blur={{ duration: 2000 }} class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
@@ -42,13 +42,7 @@
 			</svg>
 		</a>
 		<span class="inline-flex rounded-md">
-			<Button text={'Contact'} href={'https://launchschool.com/courses'} bgColor={'hsl(227, 66%, 55%)'} bgDepthColor={'hsl(227, 66%, 25%)'} />
-			<!-- <a
-				href="#contact"
-				class="inline-flex items-center px-2.5 py-1.5 border border-transparent text-base leading-6 font-medium rounded-md text-green-600 bg-green-100 hover:text-green-500 focus:outline-none focus:shadow-outline-blue active:bg-gray-50 active:text-indigo-700 transition duration-150 ease-in-out"
-			>
-				Contact
-			</a> -->
+			<Button text={'Contact'} href={'#contact'} targetBlank={false} bgColor={'hsl(227, 66%, 55%)'} bgDepthColor={'hsl(227, 66%, 25%)'} />
 		</span>
 	</div>
 </nav>

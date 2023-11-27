@@ -1,11 +1,12 @@
 <script lang="ts">
 	export let text: string = '';
 	export let href: string = '';
+	export let targetBlank: boolean = false;
 	export let bgColor: string = '';
 	export let bgDepthColor: string = '';
 </script>
 
-<a {href} target="_blank">
+<a {href} target={targetBlank ? '_blank' : ''}>
 	<button class="pushable" style="background: {bgDepthColor}"> <span class="front" style="background: {bgColor};">{text}</span></button>
 </a>
 
@@ -20,7 +21,7 @@
 	}
 	.front {
 		display: block;
-		padding: 12px 42px;
+		padding: 8px 24px;
 		border-radius: 12px;
 		font-size: 1.25rem;
 		background: hsl(349, 98%, 58%);

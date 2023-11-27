@@ -30,7 +30,9 @@
 		</div>
 		<div class="my-8 grid grid-cols-5 gap-2">
 			{#each icons as data}
-				<Icon name={data.name} linkURL={data.linkURL} imgURL={data.imgURL} />
+				<div class="m-2">
+					<Icon name={data.name} linkURL={data.linkURL} imgURL={data.imgURL} />
+				</div>
 			{/each}
 		</div>
 	</div>
