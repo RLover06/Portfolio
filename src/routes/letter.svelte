@@ -11,9 +11,11 @@
 >
 	<div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
 		<p class="text-base font-semibold leading-7 text-indigo-600">Bio</p>
-		<h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-700 sm:text-4xl">Hey there! <span class:wave={isHovered}>👋</span></h1>
-		<p class="mt-6 text-xl leading-8">I am Hunter, from The Woodlands, Texas - just north of Houston. As a full-stack developer, I enjoy building applications of all kinds with people from all over the world.</p>
-		<div class="mt-10 max-w-2xl">
+		<h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-700 sm:text-4xl space-grotesk">Hey there! <span class:wave={isHovered}>👋</span></h1>
+		<p class="mt-6 text-xl leading-8 font-semibold">
+			I am Hunter, from The Woodlands, Texas - just north of Houston. As a full-stack developer, I enjoy building applications of all kinds with people from all over the world.
+		</p>
+		<div class="mt-10 max-w-2xl text-lg font-medium">
 			<div>
 				<p>
 					Personally, I am a huge fan of <span class="font-bold text-black text-lg">JavaScript</span>, and more recently <span class="font-bold text-black text-lg">TypeScript</span>. Although
@@ -22,36 +24,46 @@
 				</p>
 				<br /> And although I am quite proficient in <span class="font-bold text-black text-lg">Tailwind CSS</span>, I am taking the time to revisit vanilla <span class="font-bold text-black text-lg">CSS</span> from
 				first principles in order to be capable of making any interface imaginable.
-				<ul class="mt-16 max-w-xl space-y-2 text-gray-600">
-					<h2 class="mx-auto my-8 text-2xl font-bold tracking-tight text-gray-900">The <span class="underline decoration-wavy decoration-indigo-600 underline-offset-8">perfect</span> days looks like...</h2>
+				<ul class="mt-16 max-w-2xl space-y-2 text-gray-600">
+					<h2 class="mx-auto my-8 text-2xl font-bold tracking-tight text-gray-900 space-grotesk">The <span class="underline decoration-wavy decoration-indigo-600 underline-offset-8">perfect</span> days looks like...</h2>
 					<li class="flex gap-x-3">
 						<svg class="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 							<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
 						</svg>
-						<span><strong class="font-semibold text-gray-900">Programming.</strong> Building applications gives me energy.</span>
+						<span><strong class="font-semibold text-gray-900">Programming.</strong> Building applications gives me energy. <span class="text-xl">⚡️</span></span>
 					</li>
 					<li class="flex gap-x-3">
 						<svg class="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 							<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
 						</svg>
-						<span><strong class="font-semibold text-gray-900">Reading in Spanish.</strong> Best way to improve overall comprehension. </span>
+						<span><strong class="font-semibold text-gray-900">Reading in Spanish.</strong> Best way to improve overall comprehension. <span class="text-xl">📈</span></span>
 					</li>
 					<li class="flex gap-x-3">
 						<svg class="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 							<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
 						</svg>
-						<span><strong class="font-semibold text-gray-900">Barbecuing.</strong> Experimenting with new recipies. </span>
+						<span><strong class="font-semibold text-gray-900">Barbecuing.</strong> Experimenting with new recipies. <span class="text-xl">🔬</span></span>
 					</li>
 				</ul>
 
-				<h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">Notes on Spanish</h2>
+				<h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900 space-grotesk">Notes on Spanish</h2>
 				<p class="mt-6">
-					The Spanish language has been many things to me. It has been a teacher, teaching me dedication, patience, and discipline. It has also been a vehicle for self-confidence. And after non-stop intense study,
-					Spanish is now a part of my identity. I've spent the last 5 years living among the Latino community, taking the opportunity to listen, learn and eventually gain a deep understanding. <br /><br /> I've
-					integrated many positive aspects of the Latin American lifestyle into my own life, with the most important lesson at the top of mind - <strong class="circle">Love life</strong>
+					The Spanish language has been many things to me. It has been a teacher, teaching me <span class="caveat text-2xl font-bold text-indigo-500">dedication</span>,
+					<span class="caveat text-2xl font-bold text-indigo-500">patience</span>, and <span class="caveat text-2xl font-bold text-indigo-500">discipline</span>. It has also been a vehicle for self-confidence. And after
+					non-stop intense study, Spanish is now a part of my identity. I've spent the last
+					<span class="font-bold">5 years</span>
+					living among the Latino community, taking the opportunity to listen, learn and eventually gain a deep understanding. <br /><br /> I've integrated many positive aspects of the Latin American lifestyle into my
+					own life, with the most important lesson at the top of mind -
+					<strong class="bg-gradient-to-b from-pink-600 via-red-600 to-fuchsia-700 text-transparent bg-clip-text font-black text-xl">Love life</strong>
 					<span class="p-2 text-xl">❤️</span>
 					<br /><br />
-					<span class="text-indigo-600 font-bold italic">Currently - B2</span> <span class="mx-4 text-indigo-600 font-bold italic"> Goal - C1 (Dec. 2024)</span>
+					<span class="text-indigo-600 font-bold italic"
+						>Currently - B2
+						<span class="mx-4 text-indigo-600 font-bold italic">
+							Goal - C1
+							<span class="text-slate-500">(Dec. 2024)</span>
+						</span>
+					</span>
 				</p>
 			</div>
 		</div>

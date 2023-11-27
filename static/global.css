@@ -1,5 +1,13 @@
 body {
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+.space-grotesk {
 	font-family: 'Space Grotesk', sans-serif;
+}
+
+.caveat {
+	font-family: 'Caveat', sans-serif;
 }
 
 @media (min-width: 768px) {

@@ -13,15 +13,11 @@
 					on:click={() => (mobileOpen = !mobileOpen)}
 					type="button"
 					class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 focus:text-gray-500 transition duration-150 ease-in-out"
-				>
-					<!-- <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-					</svg> -->
-				</button>
+				/>
 			</div>
 		</div>
-		<div class="hidden md:block items-baseline mr-8 px-2 py-1 rounded-lg text-sm font-medium bg-indigo-100 text-indigo-600 md:mt-2 lg:mt-0 glow-box">English: Native</div>
-		<div class="hidden md:block items-baseline mr-8 px-2 py-1 rounded-lg text-sm font-medium bg-indigo-100 text-indigo-600 md:mt-2 lg:mt-0 glow-box">Spanish: B2</div>
+		<div class="hidden md:block items-baseline mr-8 px-2 py-1 rounded-lg text-md font-bold bg-indigo-100 text-indigo-600 md:mt-2 lg:mt-0 glow-box">English: Native</div>
+		<div class="hidden md:block items-baseline mr-8 px-2 py-1 rounded-lg text-md font-bold bg-indigo-100 text-indigo-600 md:mt-2 lg:mt-0 glow-box">Spanish: B2</div>
 	</div>
 
 	<div class="px-2 pt-2 pb-3 hidden md:block">

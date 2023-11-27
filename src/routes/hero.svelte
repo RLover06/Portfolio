@@ -8,10 +8,10 @@
 			<img src="/headshot.jpeg" alt="" class="h-full w-full object-cover rounded-full glow-box" />
 		</div>
 
-		<h2 transition:blur={{ duration: 2000 }} class="mt-10 text-4xl tracking-tight leading-10 font-extrabold text-gray-100 sm:text-5xl sm:leading-none md:text-6xl drop-shadow-lg glow">
+		<h2 transition:blur={{ duration: 2000 }} class="mt-10 text-4xl tracking-tight leading-10 font-extrabold text-gray-100 sm:text-5xl sm:leading-none md:text-6xl drop-shadow-lg glow space-grotesk">
 			Hunter Stevens
 			<br />
-			<span transition:blur={{ duration: 3000 }} class="whitespace-nowrap bg-gradient-to-r text-indigo-300">Full-Stack Developer</span>
+			<span transition:blur={{ duration: 3000 }} class="whitespace-nowrap bg-gradient-to-r text-indigo-300 space-grotesk">Full-Stack Developer</span>
 		</h2>
 
 		<div class="mt-3 max-w-md mx-auto text-base text-neutral-600 sm:text-xl md:mt-5 md:text-xl md:max-w-3xl">

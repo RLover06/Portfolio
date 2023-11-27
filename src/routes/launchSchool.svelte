@@ -26,7 +26,7 @@
 
 		<!-- Reflection on LS -->
 		<div class="bg-white mt-8 lg:mx-48 px-6 py-8 rounded-md bg-gradient-to-b from-neutral-100 to-neutral-300 hover:outline-dotted hover:outline-4 outline-red-400 outline-offset-4 glow-box-red">
-			<h2 class="mt-4 text-2xl font-bold tracking-tight text-gray-900">Notes on Launch School</h2>
+			<h2 class="mt-4 text-2xl font-bold tracking-tight text-gray-900 space-grotesk">Notes on Launch School</h2>
 			<p class="my-6 text-gray-600">
 				Launch School was one of the hardest things I have ever done. It was also one of the most rewarding. During my time at Launch School, I learned much more than syntax and semantics, I learned attention to detail
 				and acquired a procedural mindset.

@@ -7,7 +7,7 @@
 </script>
 
 <a {href} target={targetBlank ? '_blank' : ''}>
-	<button class="pushable" style="background: {bgDepthColor}"> <span class="front" style="background: {bgColor};">{text}</span></button>
+	<button class="pushable font-bold" style="background: {bgDepthColor}"> <span class="front" style="background: {bgColor};">{text}</span></button>
 </a>
 
 <style>

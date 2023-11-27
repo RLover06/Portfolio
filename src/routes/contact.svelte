@@ -14,8 +14,8 @@
 			<div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div class="max-w-lg mx-auto rounded-lg glow-box">
 					<div class=" bg-gradient-to-b from-neutral-100 to-neutral-300 px-6 py-8 lg:flex-shrink-1 lg:p-12 rounded-lg hover:outline-dotted hover:outline-4 outline-indigo-400 outline-offset-4">
-						<h3 class="text-2xl leading-8 font-extrabold text-gray-900 sm:text-3xl sm:leading-9">Please feel free to reach out!</h3>
-						<p class="mt-6 text-base leading-6 text-gray-600 text-center">
+						<h3 class="text-2xl leading-8 font-extrabold text-gray-900 sm:text-3xl sm:leading-9 text-center">Feel free to reach out!</h3>
+						<p class="mt-6 text-base leading-6 text-gray-600 text-center font-bold">
 							hunter@toplobster.io <span class=" font-semibold mx-2" />
 						</p>
 						<div class="mt-8">
