@@ -2,6 +2,11 @@ body {
 	font-family: 'Merriweather Sans', sans-serif;
 }
 
+::selection {
+	background: rgb(159, 231, 249);
+	color: rgb(105, 83, 230);
+}
+
 .space-grotesk {
 	font-family: 'Space Grotesk', sans-serif;
 }
