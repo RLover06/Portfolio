@@ -18,12 +18,23 @@
 		<div class="mt-10 max-w-2xl text-lg font-medium">
 			<div>
 				<p>
-					Personally, I am a huge fan of <span class="font-bold text-black text-lg">JavaScript</span>, and more recently <span class="font-bold text-black text-lg">TypeScript</span>. Although
-					<span class="font-bold text-black text-lg">Svelte</span>
-					is my favorite front-end framework to use, I am learning <span class="font-bold text-black text-lg">React</span> in an effort to expose myself to other patterns and ways of thinking.
+					Personally, I am a huge fan of <span class="font-bold text-black text-lg">JavaScript</span>, and more recently,
+					<span class="font-bold text-black text-lg"> TypeScript </span>. Who doesn't love type safety, autocomplete, and intellisense? But where TypeScript really shines is in the way it forces us to be mindful of the
+					code we are writing.
+
+					<br /><br />
+
+					As far as frameworks go, I first reach for <span class="font-bold text-black text-lg">Svelte</span>, as it is by far my favorite framework. The developer experience ergonomically feels right and it’s a dream to
+					use. I am also a huge fan of Rich Harris and everything he is doing to push the framework forward.
 				</p>
-				<br /> And although I am quite proficient in <span class="font-bold text-black text-lg">Tailwind CSS</span>, I am taking the time to revisit vanilla <span class="font-bold text-black text-lg">CSS</span> from
-				first principles in order to be capable of making any interface imaginable.
+
+				<br />
+
+				<p>Runner-up goes to <span class="font-bold text-black text-lg">React</span>. Its vast community is something I highly value.</p>
+				<br />
+
+				I discovered <span class="font-bold text-black text-lg">Tailwind CSS</span> in 2019 and have been exclusively using it ever since. Lately, I have started using
+				<span class="font-bold text-black text-lg">DaisyUI</span>, the Tailwind-based component library and it's gradually turning into a favorite of mine.
 				<ul class="mt-16 max-w-2xl space-y-2 text-gray-600">
 					<h2 class="mx-auto my-8 text-2xl font-bold tracking-tight text-gray-900 space-grotesk">The <span class="underline decoration-wavy decoration-indigo-600 underline-offset-8">perfect</span> days looks like...</h2>
 					<li class="flex gap-x-3">
