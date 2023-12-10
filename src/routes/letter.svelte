@@ -36,7 +36,7 @@
 				I discovered <span class="font-bold text-black text-lg">Tailwind CSS</span> in 2019 and have been exclusively using it ever since. Lately, I have started using
 				<span class="font-bold text-black text-lg">DaisyUI</span>, the Tailwind-based component library and it's gradually turning into a favorite of mine.
 				<ul class="mt-16 max-w-2xl space-y-2 text-gray-600">
-					<h2 class="mx-auto my-8 text-2xl font-bold tracking-tight text-gray-900 space-grotesk">The <span class="underline decoration-wavy decoration-indigo-600 underline-offset-8">perfect</span> days looks like...</h2>
+					<h2 class="mx-auto my-8 text-2xl font-bold tracking-tight text-gray-900 space-grotesk">The <span class="underline decoration-wavy decoration-indigo-600 underline-offset-8">perfect</span> day looks like...</h2>
 					<li class="flex gap-x-3">
 						<svg class="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 							<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" />
