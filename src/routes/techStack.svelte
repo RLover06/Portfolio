@@ -15,6 +15,7 @@
 					<Icon name="React" linkURL="https://react.dev/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
 					<Icon name="Svelte" linkURL="https://svelte.dev/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" />
 					<Icon name="MongoDB" linkURL="https://en.wikipedia.org/wiki/MongoDB" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+					<Icon name="MongoDB" linkURL="https://supabase.com/" imgURL="supabase.png" />
 					<Icon name="Firebase" linkURL="https://firebase.google.com/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
 					<Icon name="Postgres" linkURL="https://www.postgresql.org/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
 					<Icon name="HTML" linkURL="https://en.wikipedia.org/wiki/HTML5" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
@@ -23,9 +24,10 @@
 					<Icon name="Daisy UI" linkURL="https://daisyui.com/" imgURL="daisy-ui.png" />
 					<Icon name="Vitest" linkURL="https://vitest.dev/" imgURL="vite-test.png" />
 					<Icon name="Jest" linkURL="https://jestjs.io/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
-					<Icon name="Heroku" linkURL="https://en.wikipedia.org/wiki/Heroku" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" />
-					<Icon name="Google Cloud Platform" linkURL="https://en.wikipedia.org/wiki/Google_Cloud_Platform" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" />
+					<Icon name="Vercel" linkURL="https://vercel.com/" imgURL="vercel.png" />
 					<Icon name="Netlify" linkURL="https://www.netlify.com/" imgURL="netlify.png" />
+					<Icon name="Google Cloud Platform" linkURL="https://en.wikipedia.org/wiki/Google_Cloud_Platform" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" />
+					<Icon name="Heroku" linkURL="https://en.wikipedia.org/wiki/Heroku" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" />
 					<Icon name="Stripe" linkURL="https://stripe.com/" imgURL="https://www.solodev.com/file/2e7ff4de-48b3-11ed-bb2e-0eaef3759f5f/stripe-icon.png" />
 					<Icon name="Algolia" linkURL="https://www.algolia.com/" imgURL="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/12_Algolia_logo_logos-512.png" />
 					<Icon name="Contentful" linkURL="https://www.contentful.com/" imgURL="contentful.png" />
