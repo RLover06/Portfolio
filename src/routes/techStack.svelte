@@ -30,6 +30,8 @@
 					<Icon name="Heroku" linkURL="https://en.wikipedia.org/wiki/Heroku" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" />
 					<Icon name="Stripe" linkURL="https://stripe.com/" imgURL="https://www.solodev.com/file/2e7ff4de-48b3-11ed-bb2e-0eaef3759f5f/stripe-icon.png" />
 					<Icon name="Algolia" linkURL="https://www.algolia.com/" imgURL="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/12_Algolia_logo_logos-512.png" />
+					<Icon name="Google Drive API" linkURL="https://developers.google.com/drive/api/guides/about-sdk" imgURL="google-drive.png" />
+					<Icon name="Lucia Auth" linkURL="https://lucia-auth.com/" imgURL="lucia.png" />
 					<Icon name="Contentful" linkURL="https://www.contentful.com/" imgURL="contentful.png" />
 				</div>
 			</div>

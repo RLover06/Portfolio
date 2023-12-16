@@ -10,6 +10,7 @@
 		{ name: 'Firebase', linkURL: 'https://firebase.google.com/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' },
 		{ name: 'Tailwind CSS', linkURL: 'https://tailwindcss.com/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg' },
 		{ name: 'Stripe', linkURL: 'https://stripe.com/', imgURL: 'https://www.solodev.com/file/2e7ff4de-48b3-11ed-bb2e-0eaef3759f5f/stripe-icon.png' },
+		{ name: 'Google Drive API', linkURL: 'https://developers.google.com/drive/api/guides/about-sdk', imgURL: 'google-drive.png' },
 		{ name: 'Vitest', linkURL: 'https://vitest.dev/', imgURL: 'vite-test.png' }
 	];
 
