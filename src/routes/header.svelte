@@ -18,17 +18,17 @@
 		</div>
 
 		<ul class="flex rounded-full bg-white/90 px-3 text-sm text-indigo-500 font-bold shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
-			<li><a class="relative flex items-center px-3 py-2 transition hover:text-indigo-700" href="/about">Native: <span class="text-xl mx-1">🇺🇸</span></a></li>
-			<li><a class="relative flex items-center px-3 py-2 transition hover:text-indigo-700" href="/articles">B2: <span class="text-xl mx-1">🇪🇸</span></a></li>
+			<li class="relative flex items-center px-3 py-2 transition hover:text-indigo-700">Native: <span class="text-xl mx-1">🇺🇸</span></li>
+			<li class="relative flex items-center px-3 py-2 transition hover:text-indigo-700">B2: <span class="text-xl mx-1">🇪🇸</span></li>
 		</ul>
 	</div>
 
 	<nav class="pointer-events-auto hidden md:block">
 		<ul class="flex rounded-full bg-white/90 px-3 text-sm text-indigo-500 font-bold shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
-			<li><a class="relative block px-3 py-2 transition hover:text-indigo-700" href="/about">Technologies</a></li>
-			<li><a class="relative block px-3 py-2 transition hover:text-indigo-700" href="/articles">Products</a></li>
-			<li><a class="relative block px-3 py-2 transition hover:text-indigo-700" href="/projects">Contact</a></li>
-			<li><a class="relative block px-3 py-2 transition hover:text-indigo-700" href="/speaking">Favorites</a></li>
+			<li><a class="relative block px-3 py-2 transition hover:text-indigo-700" href="#tech">Technologies</a></li>
+			<li><a class="relative block px-3 py-2 transition hover:text-indigo-700" href="#products">Products</a></li>
+			<li><a class="relative block px-3 py-2 transition hover:text-indigo-700" href="#contact">Contact</a></li>
+			<li><a class="relative block px-3 py-2 transition hover:text-indigo-700" href="#favorites">Favorites</a></li>
 		</ul>
 	</nav>
 

@@ -2,7 +2,7 @@
 	import Icon from '$lib/components/icon.svelte';
 </script>
 
-<div class="bg-slate-950 py-8" id="skills">
+<div class="bg-slate-950 py-8" id="tech">
 	<div class="">
 		<h2 class="text-3xl font-bold tracking-tight text-center sm:text-4xl bg-gradient-to-r text-indigo-300 glow">Technologies Used</h2>
 		<div class="bg-slate-950">
