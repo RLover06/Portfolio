@@ -28,11 +28,9 @@
 				{description}
 			</p>
 		</div>
-		<div class="my-8 grid grid-cols-5 gap-2">
+		<div class="my-8 grid grid-cols-5 gap-4">
 			{#each icons as data}
-				<div class="m-2">
-					<Icon name={data.name} linkURL={data.linkURL} imgURL={data.imgURL} />
-				</div>
+				<Icon name={data.name} linkURL={data.linkURL} imgURL={data.imgURL} />
 			{/each}
 		</div>
 	</div>

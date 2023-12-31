@@ -33,7 +33,7 @@
 			</div>
 
 			<div transition:blur={{ duration: 4500 }}>
-				Building: <span class="font-semibold bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 text-transparent bg-clip-text">DataForest.io</span>
+				Building: <span class="font-semibold bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 text-transparent bg-clip-text">ChatNode.ai</span>
 			</div>
 
 			<div transition:blur={{ duration: 5000 }}>
