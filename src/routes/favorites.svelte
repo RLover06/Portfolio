@@ -204,7 +204,7 @@
 							</dt>
 							{#if favorites.goat}
 								<dd class="mt-2 pr-12">
-									<p class="font-bold text-gray-200">Jordan.</p>
+									<p class="font-bold text-gray-200 text-xl ml-4">Jordan.</p>
 								</dd>
 							{/if}
 						</div>

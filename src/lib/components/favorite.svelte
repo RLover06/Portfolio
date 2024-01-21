@@ -6,8 +6,8 @@
 
 <li>
 	<div class="flex gap-3">
-		<p>{col_1}</p>
-		<p>{col_2}</p>
+		<p class="font-bold text-indigo-300">{col_1}</p>
+		<p class="text-slate-100 italic">{col_2}</p>
 		<p>{col_3}</p>
 	</div>
 </li>
