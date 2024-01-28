@@ -2,14 +2,6 @@
 	import * as Accordion from '$lib/components/ui/accordion';
 	import Favorite from '$lib/components/favorite.svelte';
 
-	const favorites = {
-		books: false,
-		movies: false,
-		shows: false,
-		places: false,
-		goat: false
-	};
-
 	const books = [
 		{ col_1: 'The Little Prince', col_2: 'Antoine de Saint-Exupéry' },
 		{ col_1: '12 Rules for Life', col_2: 'Jordan B. Peterson' },
@@ -78,147 +70,83 @@
 	];
 </script>
 
-<div class="w-2/3 mx-auto text-white">
+<div class="w-3/5 mx-auto text-white">
 	<h2 class="text-center text-3xl leading-9 font-extrabold text-green-400 sm:text-4xl sm:leading-10 glow-green">Favorites</h2>
 	<Accordion.Root>
+		<!-- Books -->
 		<Accordion.Item value="item-1">
-			<Accordion.Trigger>Favorite Books</Accordion.Trigger>
+			<Accordion.Trigger class="hover:no-underline">
+				<span class="text-lg font-medium text-green-300">&#128218; Favorite Books</span>
+			</Accordion.Trigger>
 			<Accordion.Content>
-				{#each books as book}
-					<Favorite col_1={book.col_1} col_2={book.col_2} />
-				{/each}
+				<dd class="mt-2 pr-12">
+					<ol class="list-decimal text-base leading-6 text-gray-400 ml-6">
+						{#each books as book}
+							<Favorite col_1={book.col_1} col_2={book.col_2} />
+						{/each}
+					</ol>
+				</dd>
+			</Accordion.Content>
+		</Accordion.Item>
+
+		<!-- Movies -->
+		<Accordion.Item value="item-2">
+			<Accordion.Trigger class="hover:no-underline">
+				<span class="text-lg font-medium text-green-400">&#127871; Favorite Movies</span>
+			</Accordion.Trigger>
+			<Accordion.Content>
+				<dd class="mt-2 pr-12">
+					<ol class="list-decimal text-base leading-6 text-gray-400 ml-6">
+						{#each movies as movie}
+							<Favorite col_1={movie.col_1} />
+						{/each}
+					</ol>
+				</dd>
+			</Accordion.Content>
+		</Accordion.Item>
+
+		<!--TV Shows -->
+		<Accordion.Item value="item-3">
+			<Accordion.Trigger class="hover:no-underline">
+				<span class="text-lg font-medium text-green-500"> &#127916; Favorite TV Shows</span>
+			</Accordion.Trigger>
+			<Accordion.Content>
+				<dd class="mt-2 pr-12">
+					<ol class="list-decimal text-base leading-6 text-gray-400 ml-6">
+						{#each books as book}
+							<Favorite col_1={book.col_1} col_2={book.col_2} />
+						{/each}
+					</ol>
+				</dd>
+			</Accordion.Content>
+		</Accordion.Item>
+
+		<!--Favorite Places on Earth -->
+		<Accordion.Item value="item-4">
+			<Accordion.Trigger class="hover:no-underline">
+				<span class="text-lg font-medium text-green-600">&#127758; Favorite Places on Earth</span>
+			</Accordion.Trigger>
+			<Accordion.Content>
+				<dd class="mt-2 pr-12">
+					<ol class="list-decimal text-base leading-6 text-gray-400 ml-6">
+						{#each places as place}
+							<Favorite col_1={place.col_1} col_2={place.col_2} />
+						{/each}
+					</ol>
+				</dd>
+			</Accordion.Content>
+		</Accordion.Item>
+
+		<!-- GOAT -->
+		<Accordion.Item value="item-5">
+			<Accordion.Trigger class="hover:no-underline">
+				<span class="text-lg font-medium text-green-700"> &#127936; Greatest of All Time </span>
+			</Accordion.Trigger>
+			<Accordion.Content>
+				<dd class="mt-2 pr-12">
+					<p class="font-bold text-gray-200 text-xl ml-4">Jordan.</p>
+				</dd>
 			</Accordion.Content>
 		</Accordion.Item>
 	</Accordion.Root>
-</div>
-
-<!-- Favorites -->
-<div id="favorites" class="bg-slate-950">
-	<div class="max-w-screen-xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-		<div class="max-w-3xl mx-auto">
-			<h2 class="text-center text-3xl leading-9 font-extrabold text-green-400 sm:text-4xl sm:leading-10 glow-green">Favorites</h2>
-			<div class="mt-6 border-t-2 border-gray-200 pt-6">
-				<dl>
-					<!-- Books -->
-					<div>
-						<dt class="text-lg leading-7">
-							<button on:click={() => (favorites.books = !favorites.books)} class="text-left w-full flex justify-between items-start text-gray-400 focus:outline-none focus:text-gray-900">
-								<span class="font-medium text-green-300">&#128218; Favorite Books</span>
-								<span class="ml-6 h-7 flex items-center">
-									<svg class="h-6 w-6 transform" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-									</svg>
-								</span>
-							</button>
-						</dt>
-						{#if favorites.books}
-							<dd class="mt-2 pr-12">
-								<ol class="list-decimal text-base leading-6 text-gray-400 ml-6">
-									{#each books as book}
-										<Favorite col_1={book.col_1} col_2={book.col_2} />
-									{/each}
-								</ol>
-							</dd>
-						{/if}
-					</div>
-
-					<!-- Movies -->
-					<div class="mt-6 border-t border-gray-200 pt-6">
-						<div>
-							<dt class="text-lg leading-7">
-								<button on:click={() => (favorites.movies = !favorites.movies)} class="text-left w-full flex justify-between items-start text-gray-400 focus:outline-none focus:text-gray-900">
-									<span class="font-medium text-green-400">&#127871; Favorite Movies</span>
-									<span class="ml-6 h-7 flex items-center">
-										<svg class="h-6 w-6 transform" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-										</svg>
-									</span>
-								</button>
-							</dt>
-							{#if favorites.movies}
-								<dd class="mt-2 pr-12">
-									<ol class="list-decimal text-base leading-6 text-gray-400 ml-6">
-										{#each movies as movie}
-											<Favorite col_1={movie.col_1} />
-										{/each}
-									</ol>
-								</dd>
-							{/if}
-						</div>
-					</div>
-
-					<!-- Shows -->
-					<div class="mt-6 border-t border-gray-200 pt-6">
-						<div>
-							<dt class="text-lg leading-7">
-								<button on:click={() => (favorites.shows = !favorites.shows)} class="text-left w-full flex justify-between items-start text-gray-400 focus:outline-none focus:text-gray-900">
-									<span class="font-medium text-green-500"> &#127916; Favorite TV Shows</span>
-									<span class="ml-6 h-7 flex items-center">
-										<svg class="h-6 w-6 transform" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-										</svg>
-									</span>
-								</button>
-							</dt>
-							{#if favorites.shows}
-								<dd class="mt-2 pr-12">
-									<ol class="list-decimal text-base leading-6 text-gray-400 ml-6">
-										{#each shows as show}
-											<Favorite col_1={show.col_1} />
-										{/each}
-									</ol>
-								</dd>
-							{/if}
-						</div>
-					</div>
-
-					<!-- Places -->
-					<div class="mt-6 border-t border-gray-200 pt-6">
-						<div>
-							<dt class="text-lg leading-7">
-								<button on:click={() => (favorites.places = !favorites.places)} class="text-left w-full flex justify-between items-start text-gray-400 focus:outline-none focus:text-gray-900">
-									<span class="font-medium text-green-600">&#127758; Favorite Places on Earth</span>
-									<span class="ml-6 h-7 flex items-center">
-										<svg class="h-6 w-6 transform" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-										</svg>
-									</span>
-								</button>
-							</dt>
-							{#if favorites.places}
-								<dd class="mt-2 pr-12">
-									<ol class="list-decimal text-base leading-6 text-gray-400 ml-6">
-										{#each places as place}
-											<Favorite col_1={place.col_1} col_2={place.col_2} />
-										{/each}
-									</ol>
-								</dd>
-							{/if}
-						</div>
-					</div>
-
-					<!-- GOAT -->
-					<div class="mt-6 border-t border-gray-200 pt-6">
-						<div>
-							<dt class="text-lg leading-7">
-								<button on:click={() => (favorites.goat = !favorites.goat)} class="text-left w-full flex justify-between items-start text-gray-400 focus:outline-none focus:text-gray-900">
-									<span class="font-medium text-green-700"> &#127936; Greatest of All Time </span>
-									<span class="ml-6 h-7 flex items-center">
-										<svg class="h-6 w-6 transform" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-										</svg>
-									</span>
-								</button>
-							</dt>
-							{#if favorites.goat}
-								<dd class="mt-2 pr-12">
-									<p class="font-bold text-gray-200 text-xl ml-4">Jordan.</p>
-								</dd>
-							{/if}
-						</div>
-					</div>
-				</dl>
-			</div>
-		</div>
-	</div>
 </div>
