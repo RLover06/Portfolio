@@ -33,7 +33,7 @@
 				<br />
 
 				I discovered <span class="font-bold text-black text-lg">Tailwind CSS</span> in 2019 and have been exclusively using it ever since. Lately, I have started using
-				<span class="font-bold text-black text-lg">DaisyUI</span>, the Tailwind-based component library and it's gradually turning into one of my favorites.
+				<span class="font-bold text-black text-lg">Shadcn UI</span>, the Tailwind-based component library and it's gradually turning into one of my favorites.
 
 				<ul class="mt-16 max-w-2xl space-y-2 text-gray-600">
 					<h2 class="mx-auto my-8 text-2xl font-bold tracking-tight text-gray-900 space-grotesk">The <span class="underline decoration-wavy decoration-indigo-600 underline-offset-8">perfect</span> day looks like...</h2>

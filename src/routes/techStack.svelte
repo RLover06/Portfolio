@@ -22,6 +22,7 @@
 					<Icon name="HTML" linkURL="https://en.wikipedia.org/wiki/HTML5" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
 					<Icon name="CSS" linkURL="https://developer.mozilla.org/en-US/docs/Web/CSS" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
 					<Icon name="Tailwind CSS" linkURL="https://tailwindcss.com/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+					<Icon name="Shadcn UI" linkURL="https://ui.shadcn.com/" imgURL="shadcn-ui.png" />
 					<Icon name="Daisy UI" linkURL="https://daisyui.com/" imgURL="daisy-ui.png" />
 					<Icon name="Vitest" linkURL="https://vitest.dev/" imgURL="vite-test.png" />
 					<Icon name="Jest" linkURL="https://jestjs.io/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
