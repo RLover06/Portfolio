@@ -57,19 +57,6 @@
 					<span class="font-semibold bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 text-transparent bg-clip-text">Software Dev @ ChatNode.ai</span>
 				</a>
 			</div>
-
-			<div transition:blur={{ duration: 5000 }} class="flex justify-center gap-2">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"
-					/>
-				</svg>
-				<a href="https://playwright.dev" target="_blank">
-					<span class="font-semibold bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 text-transparent bg-clip-text">Playwright (Learning)</span>
-				</a>
-			</div>
 		</div>
 	</div>
 </div>

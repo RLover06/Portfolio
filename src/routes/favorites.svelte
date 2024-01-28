@@ -1,12 +1,6 @@
-<script>
+<script lang="ts">
+	import * as Accordion from '$lib/components/ui/accordion';
 	import Favorite from '$lib/components/favorite.svelte';
-	// type Favorites = {
-	//   books: boolean;
-	//   movies: boolean;
-	//   shows: boolean;
-	//   places: boolean;
-	//   goat: boolean;
-	// }
 
 	const favorites = {
 		books: false,
@@ -83,6 +77,20 @@
 		{ col_1: 'Valle de Corcoa, Colombia', col_2: 'Tallest palm trees in the world' }
 	];
 </script>
+
+<div class="w-2/3 mx-auto text-white">
+	<h2 class="text-center text-3xl leading-9 font-extrabold text-green-400 sm:text-4xl sm:leading-10 glow-green">Favorites</h2>
+	<Accordion.Root>
+		<Accordion.Item value="item-1">
+			<Accordion.Trigger>Favorite Books</Accordion.Trigger>
+			<Accordion.Content>
+				{#each books as book}
+					<Favorite col_1={book.col_1} col_2={book.col_2} />
+				{/each}
+			</Accordion.Content>
+		</Accordion.Item>
+	</Accordion.Root>
+</div>
 
 <!-- Favorites -->
 <div id="favorites" class="bg-slate-950">
