@@ -20,6 +20,18 @@
 		{ col_1: 'A New Grammar Reference of Modern Spanish', col_2: 'John Butt • Carmen Benjamin' }
 	];
 
+	const podcasts = [
+		{ col_1: 'The Joe Rogan Experience', col_2: 'Great exposure to a little bit of everything' },
+		{ col_1: 'Syntax', col_2: 'Endless web dev knowledge' },
+		{ col_1: 'Lex Fridman Podcast', col_2: 'Great Tech/Culture discussions' },
+		{ col_1: 'This Past Weekend w/ Theo Von', col_2: 'Authentic, funny, gotta love it - gang gang!' },
+		{ col_1: 'Huberman Lab', col_2: 'Actionable science' },
+		{ col_1: 'You Can Learn Chinese Podcast', col_2: 'Best language learning tips out there!' },
+		{ col_1: "Matt & Shane's Secret Podcast", col_2: 'Laughs when I need to relax' },
+		{ col_1: 'Podrocket', col_2: 'Great software development opinions' },
+		{ col_1: 'No Hay Banderas en Marte', col_2: 'La mejor manera de mejorar mi español' }
+	];
+
 	const movies = [
 		{ col_1: "You've Got Mail" },
 		{ col_1: 'Interstellar' },
@@ -70,13 +82,13 @@
 	];
 </script>
 
-<div class="w-3/5 mx-auto text-white">
+<div class="md:w-3/5 mx-auto text-white">
 	<h2 class="text-center text-3xl leading-9 font-extrabold text-green-400 sm:text-4xl sm:leading-10 glow-green">Favorites</h2>
 	<Accordion.Root>
 		<!-- Books -->
-		<Accordion.Item value="item-1">
+		<Accordion.Item value="books">
 			<Accordion.Trigger class="hover:no-underline">
-				<span class="text-lg font-medium text-green-300">&#128218; Favorite Books</span>
+				<span class="text-lg font-medium text-green-200">&#128218; Favorite Books</span>
 			</Accordion.Trigger>
 			<Accordion.Content>
 				<dd class="mt-2 pr-12">
@@ -89,8 +101,24 @@
 			</Accordion.Content>
 		</Accordion.Item>
 
+		<!-- Podcasts -->
+		<Accordion.Item value="podcasts">
+			<Accordion.Trigger class="hover:no-underline">
+				<span class="text-lg font-medium text-green-300">🎙️ Favorite Podcasts</span>
+			</Accordion.Trigger>
+			<Accordion.Content>
+				<dd class="mt-2 pr-12">
+					<ol class="list-decimal text-base leading-6 text-gray-400 ml-6">
+						{#each podcasts as podcast}
+							<Favorite col_1={podcast.col_1} col_2={podcast.col_2} />
+						{/each}
+					</ol>
+				</dd>
+			</Accordion.Content>
+		</Accordion.Item>
+
 		<!-- Movies -->
-		<Accordion.Item value="item-2">
+		<Accordion.Item value="movies">
 			<Accordion.Trigger class="hover:no-underline">
 				<span class="text-lg font-medium text-green-400">&#127871; Favorite Movies</span>
 			</Accordion.Trigger>
@@ -106,7 +134,7 @@
 		</Accordion.Item>
 
 		<!--TV Shows -->
-		<Accordion.Item value="item-3">
+		<Accordion.Item value="shows">
 			<Accordion.Trigger class="hover:no-underline">
 				<span class="text-lg font-medium text-green-500"> &#127916; Favorite TV Shows</span>
 			</Accordion.Trigger>
@@ -122,7 +150,7 @@
 		</Accordion.Item>
 
 		<!--Favorite Places on Earth -->
-		<Accordion.Item value="item-4">
+		<Accordion.Item value="places">
 			<Accordion.Trigger class="hover:no-underline">
 				<span class="text-lg font-medium text-green-600">&#127758; Favorite Places on Earth</span>
 			</Accordion.Trigger>
@@ -138,7 +166,7 @@
 		</Accordion.Item>
 
 		<!-- GOAT -->
-		<Accordion.Item value="item-5">
+		<Accordion.Item value="goat">
 			<Accordion.Trigger class="hover:no-underline">
 				<span class="text-lg font-medium text-green-700"> &#127936; Greatest of All Time </span>
 			</Accordion.Trigger>
