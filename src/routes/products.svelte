@@ -4,7 +4,7 @@
 	const air_mailer_icons = [
 		{ name: 'TypeScript', linkURL: 'https://www.typescriptlang.org/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
 		{ name: 'Svelte', linkURL: 'https://svelte.dev/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg' },
-		{ name: 'Node.js', linkURL: 'https://nodejs.org/en', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
+		{ name: 'Node.js', linkURL: 'https://nodejs.org/en', imgURL: 'node.png' },
 		{ name: 'Vite.js', linkURL: 'https://vitejs.dev/', imgURL: 'vite.png' },
 		{ name: 'MongoDB', linkURL: 'https://www.mongodb.com/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
 		{ name: 'Firebase', linkURL: 'https://firebase.google.com/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' },
@@ -17,7 +17,7 @@
 	const data_forest_icons = [
 		{ name: 'TypeScript', linkURL: 'https://www.typescriptlang.org/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
 		{ name: 'Svelte', linkURL: 'https://svelte.dev/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg' },
-		{ name: 'Node.js', linkURL: 'https://nodejs.org/en', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
+		{ name: 'Node.js', linkURL: 'https://nodejs.org/en', imgURL: 'node.png' },
 		{ name: 'Vite.js', linkURL: 'https://vitejs.dev/', imgURL: 'vite.png' },
 		{ name: 'MongoDB', linkURL: 'https://www.mongodb.com/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
 		{ name: 'Firebase', linkURL: 'https://firebase.google.com/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg' },
@@ -27,7 +27,7 @@
 	const vertical_spanish_icons = [
 		{ name: 'JavaScript', linkURL: 'https://en.wikipedia.org/wiki/JavaScript', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
 		{ name: 'Svelte', linkURL: 'https://svelte.dev/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg' },
-		{ name: 'Node.js', linkURL: 'https://nodejs.org/en', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
+		{ name: 'Node.js', linkURL: 'https://nodejs.org/en', imgURL: 'node.png' },
 		{ name: 'Vite.js', linkURL: 'https://vitejs.dev/', imgURL: 'vite.png' },
 		{ name: 'MongoDB', linkURL: 'https://www.mongodb.com/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg' },
 		{ name: 'Tailwind CSS', linkURL: 'https://tailwindcss.com/', imgURL: 'https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/tailwindcss/tailwindcss-original.svg' },
