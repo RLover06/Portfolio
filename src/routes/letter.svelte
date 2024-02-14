@@ -3,6 +3,7 @@
 </script>
 
 <div
+	role="main"
 	on:mouseover={() => (isHovered = true)}
 	on:mouseout={() => (isHovered = false)}
 	on:focus={() => (isHovered = true)}
