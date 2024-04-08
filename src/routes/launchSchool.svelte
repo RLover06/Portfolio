@@ -1,9 +1,13 @@
-<script>
+<script lang="ts">
 	import Button from '$lib/components/button.svelte';
-	let isHovered = false;
+	let isHoveredLS: boolean = false;
 </script>
 
-<div on:mouseover={() => (isHovered = true)} on:mouseout={() => (isHovered = false)} on:focus={() => (isHovered = true)} on:blur={() => (isHovered = false)} class="bg-slate-950">
+<!--  on:focus={() => (isHoveredLS = true)} on:blur={() => (isHoveredLS = false)} -->
+
+<!-- svelte-ignore a11y-no-static-element-interactions -->
+<!-- svelte-ignore a11y-mouse-events-have-key-events -->
+<div class="bg-slate-950">
 	<div class="mx-auto max-w-7xl py-12 px-4 sm:py-16 sm:px-6 lg:px-8 lg:py-24">
 		<img src="logo-ls.png" class="mx-auto w-3/4 md:w-1/3 my-4" alt="" />
 		<div class="mx-auto max-w-4xl text-center">
@@ -25,7 +29,11 @@
 		</dl>
 
 		<!-- Reflection on LS -->
-		<div class="bg-white mt-8 lg:mx-48 px-6 py-8 rounded-md bg-gradient-to-b from-neutral-100 to-neutral-300 hover:outline-dotted hover:outline-4 outline-red-400 outline-offset-4 glow-box-red">
+		<div
+			on:mouseover={() => (isHoveredLS = true)}
+			on:mouseout={() => (isHoveredLS = false)}
+			class="bg-white mt-8 lg:mx-48 px-6 py-8 rounded-md bg-gradient-to-b from-neutral-100 to-neutral-300 hover:outline-dotted hover:outline-4 outline-red-400 outline-offset-4 glow-box-red"
+		>
 			<h2 class="mt-4 text-2xl font-bold tracking-tight text-gray-900 space-grotesk">Notes on Launch School</h2>
 			<p class="my-6 text-gray-600">
 				Launch School was one of the hardest things I have ever done. It was also one of the most rewarding. During my time at Launch School, I learned much more than syntax and semantics, I learned attention to detail
@@ -33,7 +41,7 @@
 				<br /><br />
 				The core curriculum begins with first principles, which is by no means an attractive way to start, but it highlights the seriousness of the program. A complete understanding of the fundamentals is required before
 				touching higher-level abstractions, and this is what makes the core curriculum so special.
-				<span class="text-xl" class:hithere={isHovered}>🎉</span>
+				<span class="text-xl" class:hithere={isHoveredLS}>🎉</span>
 			</p>
 			<Button text={'View Curriculum'} href={'https://launchschool.com/courses'} targetBlank={true} bgColor={'hsl(349, 98%, 58%)'} bgDepthColor={'hsl(340, 97%, 38%)'} />
 		</div>
