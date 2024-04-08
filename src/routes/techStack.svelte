@@ -28,9 +28,9 @@
 					<Icon name="Jest" linkURL="https://jestjs.io/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
 					<Icon name="Vercel" linkURL="https://vercel.com/" imgURL="vercel.png" />
 					<Icon name="Netlify" linkURL="https://www.netlify.com/" imgURL="netlify.png" />
-					<Icon name="Mapbox" linkURL="https://www.mapbox.com/" imgURL="mapbox.png" />
 					<Icon name="Google Cloud Platform" linkURL="https://cloud.google.com/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" />
 					<Icon name="Heroku" linkURL="https://heroku.com/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" />
+					<Icon name="Mapbox" linkURL="https://www.mapbox.com/" imgURL="mapbox.png" />
 					<Icon name="Stripe" linkURL="https://stripe.com/" imgURL="https://www.solodev.com/file/2e7ff4de-48b3-11ed-bb2e-0eaef3759f5f/stripe-icon.png" />
 					<Icon name="Algolia" linkURL="https://www.algolia.com/" imgURL="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/12_Algolia_logo_logos-512.png" />
 					<Icon name="Google Drive API" linkURL="https://developers.google.com/drive/api/guides/about-sdk" imgURL="google-drive.png" />

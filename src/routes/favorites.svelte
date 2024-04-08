@@ -61,7 +61,7 @@
 	const places = [
 		{ col_1: 'The Woodlands, Texas', col_2: "I'm a hometown kind of guy" },
 		{ col_1: 'Tenerife, Spain', col_2: 'Incredible amount of microclimates' },
-		{ col_1: 'Medellín, Colombia', col_2: 'Lived here for 5 years, más paisa que una arepa' },
+		{ col_1: 'Medellín, Colombia', col_2: 'Lived here for 6 years, más paisa que una arepa' },
 		{ col_1: 'Denver, Colorado', col_2: 'Lived here for a year, Rocky Mountain Air' },
 		{ col_1: 'Papagayo, Costa Rica', col_2: 'Great family memories' },
 		{ col_1: 'Rome, Italy', col_2: 'If Rome can fall, nothing is forever' },
