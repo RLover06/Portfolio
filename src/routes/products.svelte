@@ -12,6 +12,7 @@
 		{ name: 'Shadcn UI', linkURL: 'https://ui.shadcn.com/', imgURL: '/shadcn-ui.png' },
 		{ name: 'Mapbox', linkURL: 'https://www.mapbox.com/', imgURL: 'mapbox.png' },
 		{ name: 'Stripe', linkURL: 'https://stripe.com/', imgURL: 'https://www.solodev.com/file/2e7ff4de-48b3-11ed-bb2e-0eaef3759f5f/stripe-icon.png' },
+		{ name: 'Lucia Auth', linkURL: 'https://lucia-auth.com/', imgURL: 'lucia.png' },
 		{ name: 'Vitest', linkURL: 'https://vitest.dev/', imgURL: 'vite-test.png' },
 		{ name: 'Vercel', linkURL: 'https://vercel.com/', imgURL: 'vercel.png' }
 	];
