@@ -4,6 +4,7 @@
 	const air_mailer_icons = [
 		{ name: 'TypeScript', linkURL: 'https://www.typescriptlang.org/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
 		{ name: 'Svelte', linkURL: 'https://svelte.dev/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg' },
+		{ name: 'Bun', linkURL: 'https://bun.sh', imgURL: 'bun.svg' },
 		{ name: 'Vite.js', linkURL: 'https://vitejs.dev/', imgURL: 'vite.png' },
 		{ name: 'Supabase', linkURL: 'https://supabase.com', imgURL: '/supabase.png' },
 		{ name: 'PostgreSQL', linkURL: 'https://www.postgresql.org/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },

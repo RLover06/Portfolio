@@ -11,6 +11,7 @@
 					<Icon name="TypeScript" linkURL="https://www.typescriptlang.org/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
 					<Icon name="JavaScript" linkURL="https://en.wikipedia.org/wiki/JavaScript" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 					<Icon name="Node.js" linkURL="https://nodejs.org/en" imgURL="node.png" />
+					<Icon name="Bun" linkURL="https://bun.sh" imgURL="bun.svg" />
 					<Icon name="Svelte" linkURL="https://svelte.dev/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" />
 					<Icon name="React" linkURL="https://react.dev/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
 					<Icon name="Vite.js" linkURL="https://vitejs.dev/" imgURL="vite.png" />

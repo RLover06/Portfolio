@@ -27,9 +27,9 @@
 		{ col_1: 'This Past Weekend w/ Theo Von', col_2: 'Authentic, funny, gotta love it - gang gang!' },
 		{ col_1: 'Huberman Lab', col_2: 'Actionable science' },
 		{ col_1: 'You Can Learn Chinese Podcast', col_2: 'Best language learning tips out there!' },
-		{ col_1: "Matt & Shane's Secret Podcast", col_2: 'Laughs when I need to relax' },
 		{ col_1: 'Podrocket', col_2: 'Great software development opinions' },
-		{ col_1: 'No Hay Banderas en Marte', col_2: 'La mejor manera de mejorar mi español' }
+		{ col_1: 'No Hay Banderas en Marte', col_2: 'La mejor manera de mejorar mi español' },
+		{ col_1: 'The Frontend Masters Podcast', col_2: 'Great software development commentary' }
 	];
 
 	const movies = [
