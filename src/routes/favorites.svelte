@@ -88,7 +88,7 @@
 		<!-- Books -->
 		<Accordion.Item value="books">
 			<Accordion.Trigger class="hover:no-underline">
-				<span class="text-lg font-medium text-green-200">&#128218; Favorite Books</span>
+				<span class="text-lg font-medium text-green-300">&#128218; Favorite Books</span>
 			</Accordion.Trigger>
 			<Accordion.Content>
 				<dd class="mt-2 pr-12">
@@ -102,7 +102,7 @@
 		</Accordion.Item>
 
 		<!-- Podcasts -->
-		<Accordion.Item value="podcasts">
+		<!-- <Accordion.Item value="podcasts">
 			<Accordion.Trigger class="hover:no-underline">
 				<span class="text-lg font-medium text-green-300">🎙️ Favorite Podcasts</span>
 			</Accordion.Trigger>
@@ -115,7 +115,7 @@
 					</ol>
 				</dd>
 			</Accordion.Content>
-		</Accordion.Item>
+		</Accordion.Item> -->
 
 		<!-- Movies -->
 		<Accordion.Item value="movies">

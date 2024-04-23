@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import Header from './header.svelte';
   import Hero from './hero.svelte';
   import Letter from './letter.svelte';
@@ -8,8 +9,7 @@
   import Contact from './contact.svelte';
   import Favorites from './favorites.svelte';
   import Footer from './footer.svelte';
-
-  import { onMount } from 'svelte';
+	import Youtube from './youtube.svelte';
 
   let ready = false;
 
@@ -24,6 +24,7 @@
   <Letter/>
   <TechStack/>
   <Products/>
+  <Youtube />
   <LaunchSchool/>
   <Contact/>
   <Favorites/>
