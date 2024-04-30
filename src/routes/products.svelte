@@ -56,7 +56,7 @@
 			<Product
 				category="Mailing Lists"
 				title="AirMailer.io"
-				description="AirMailer.io allows marketers to generate mailing list with a little as an address. I like to think of it as a vending machine for aparment mailing lists."
+				description="AirMailer.io allows marketers to generate mailing list with just a few clicks. I like to think of it as a vending machine for addresses. (94 Million Addresses)"
 				linkURL="https://airmailer.io"
 				imgURL="airmailer_ss.png"
 				icons={air_mailer_icons}
