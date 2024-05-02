@@ -14,10 +14,11 @@
 					<Icon name="Bun" linkURL="https://bun.sh" imgURL="bun.svg" />
 					<Icon name="Svelte" linkURL="https://svelte.dev/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" />
 					<Icon name="React" linkURL="https://react.dev/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+					<Icon name="Next.js" linkURL="https://nextjs.org/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
 					<Icon name="Vite.js" linkURL="https://vitejs.dev/" imgURL="vite.png" />
+					<Icon name="Supabase" linkURL="https://supabase.com/" imgURL="supabase.png" />
 					<Icon name="MongoDB" linkURL="https://www.mongodb.com/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
 					<Icon name="Firebase" linkURL="https://firebase.google.com/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
-					<Icon name="Supabase" linkURL="https://supabase.com/" imgURL="supabase.png" />
 					<Icon name="Prisma" linkURL="https://www.prisma.io/" imgURL="prisma.png" />
 					<Icon name="Postgres" linkURL="https://www.postgresql.org/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
 					<Icon name="HTML" linkURL="https://en.wikipedia.org/wiki/HTML5" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
