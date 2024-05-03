@@ -25,9 +25,10 @@
 					<br /><br />
 
 					As far as frameworks go, <span class="font-bold text-black text-lg">Svelte</span> is always my first choice. The developer experience is excellent and it’s a dream to use. I am also a huge fan of Rich Harris and
-					everything he is doing to push the framework forward.
-				</p>
-
+					everything he is doing to push the framework forward. Because of that, I created a Sveltekit starter template, called 
+					<a class="font-bold" href="https://github.com/diamondalltheway/sveltetastic">
+						Sveltetastic<span class="font-medium">.</span>
+					</a>
 				<br />
 
 				<p>The runner-up goes to <span class="font-bold text-black text-lg">React</span>. Its strong community and ecosystem are something I highly value.</p>
