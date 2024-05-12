@@ -20,18 +20,6 @@
 		{ col_1: 'A New Grammar Reference of Modern Spanish', col_2: 'John Butt • Carmen Benjamin' }
 	];
 
-	const podcasts = [
-		{ col_1: 'The Joe Rogan Experience', col_2: 'Great exposure to a little bit of everything' },
-		{ col_1: 'Syntax', col_2: 'Endless web dev knowledge' },
-		{ col_1: 'Lex Fridman Podcast', col_2: 'Great Tech/Culture discussions' },
-		{ col_1: 'This Past Weekend w/ Theo Von', col_2: 'Authentic, funny, gotta love it - gang gang!' },
-		{ col_1: 'Huberman Lab', col_2: 'Actionable science' },
-		{ col_1: 'You Can Learn Chinese Podcast', col_2: 'Best language learning tips out there!' },
-		{ col_1: 'Podrocket', col_2: 'Great software development opinions' },
-		{ col_1: 'No Hay Banderas en Marte', col_2: 'La mejor manera de mejorar mi español' },
-		{ col_1: 'The Frontend Masters Podcast', col_2: 'Great software development commentary' }
-	];
-
 	const movies = [
 		{ col_1: "You've Got Mail" },
 		{ col_1: 'Interstellar' },
@@ -126,7 +114,7 @@
 				<dd class="mt-2 pr-12">
 					<ol class="list-decimal text-base leading-6 text-gray-400 ml-6">
 						{#each shows as show}
-							<Favorite col_1={show.col_1} col_2={show.col_2} />
+							<Favorite col_1={show.col_1} />
 						{/each}
 					</ol>
 				</dd>

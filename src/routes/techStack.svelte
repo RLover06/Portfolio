@@ -28,6 +28,7 @@
 					<Icon name="Daisy UI" linkURL="https://daisyui.com/" imgURL="daisy-ui.png" />
 					<Icon name="Vitest" linkURL="https://vitest.dev/" imgURL="vite-test.png" />
 					<Icon name="Jest" linkURL="https://jestjs.io/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
+					<Icon name="Docker" linkURL="https://docker.com/" imgURL="docker.png" />
 					<Icon name="Vercel" linkURL="https://vercel.com/" imgURL="vercel.png" />
 					<Icon name="Netlify" linkURL="https://www.netlify.com/" imgURL="netlify.png" />
 					<Icon name="Google Cloud Platform" linkURL="https://cloud.google.com/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" />
