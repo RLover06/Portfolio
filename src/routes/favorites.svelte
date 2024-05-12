@@ -99,23 +99,7 @@
 					</ol>
 				</dd>
 			</Accordion.Content>
-		</Accordion.Item>
-
-		<!-- Podcasts -->
-		<!-- <Accordion.Item value="podcasts">
-			<Accordion.Trigger class="hover:no-underline">
-				<span class="text-lg font-medium text-green-300">🎙️ Favorite Podcasts</span>
-			</Accordion.Trigger>
-			<Accordion.Content>
-				<dd class="mt-2 pr-12">
-					<ol class="list-decimal text-base leading-6 text-gray-400 ml-6">
-						{#each podcasts as podcast}
-							<Favorite col_1={podcast.col_1} col_2={podcast.col_2} />
-						{/each}
-					</ol>
-				</dd>
-			</Accordion.Content>
-		</Accordion.Item> -->
+		</Accordion.Item>>
 
 		<!-- Movies -->
 		<Accordion.Item value="movies">
@@ -141,8 +125,8 @@
 			<Accordion.Content>
 				<dd class="mt-2 pr-12">
 					<ol class="list-decimal text-base leading-6 text-gray-400 ml-6">
-						{#each books as book}
-							<Favorite col_1={book.col_1} col_2={book.col_2} />
+						{#each shows as show}
+							<Favorite col_1={show.col_1} col_2={show.col_2} />
 						{/each}
 					</ol>
 				</dd>

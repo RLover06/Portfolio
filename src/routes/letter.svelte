@@ -29,7 +29,7 @@
 					<a class="font-bold" href="https://github.com/diamondalltheway/sveltetastic">
 						Sveltetastic<span class="font-medium">.</span>
 					</a>
-				<br />
+					<br /><br />
 
 				<p>The runner-up goes to <span class="font-bold text-black text-lg">React</span>. Its strong community and ecosystem are something I highly value.</p>
 				<br />
