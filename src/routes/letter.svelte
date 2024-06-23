@@ -86,10 +86,6 @@
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Roboto+Mono&family=Roboto:wght@400;900&family=Space+Grotesk:wght@500&display=swap');
 
-	.hovered-font {
-		font-family: 'Caveat', serif;
-	}
-
 	.wave {
 		animation-name: wave-animation;
 		animation-duration: 3s;
@@ -122,27 +118,6 @@
 		} /* Reset for the last half to pause */
 		100% {
 			transform: rotate(0deg);
-		}
-	}
-
-	.gelatine {
-		display: inline-block;
-		animation: gelatine 1s;
-		animation-iteration-count: 5;
-	}
-
-	@keyframes gelatine {
-		0% {
-			transform: scale(1, 1);
-		}
-		25% {
-			transform: scale(0.9, 1.1);
-		}
-		50% {
-			transform: scale(1.1, 0.9);
-		}
-		75% {
-			transform: scale(0.95, 1.05);
 		}
 	}
 </style>
