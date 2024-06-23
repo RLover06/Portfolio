@@ -87,7 +87,7 @@
 					</ol>
 				</dd>
 			</Accordion.Content>
-		</Accordion.Item>>
+		</Accordion.Item>
 
 		<!-- Movies -->
 		<Accordion.Item value="movies">
