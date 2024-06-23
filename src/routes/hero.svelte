@@ -53,8 +53,8 @@
 					/>
 					<path stroke-linecap="round" stroke-linejoin="round" d="M4.867 19.125h.008v.008h-.008v-.008Z" />
 				</svg>
-				<a href="https://chatnode.ai" target="_blank">
-					<span class="font-semibold bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 text-transparent bg-clip-text">Software Dev @ ChatNode.ai</span>
+				<a href="https://www.mlytica.com/" target="_blank">
+					<span class="font-semibold bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 text-transparent bg-clip-text">Software Dev @ MLytica</span>
 				</a>
 			</div>
 		</div>
