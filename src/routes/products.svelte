@@ -57,7 +57,17 @@
 		{ name: 'Vercel', linkURL: 'https://vercel.com/', imgURL: 'vercel.png' }
 	];
 
-	const mlytica_icons = [
+	const merlin_icons = [
+		{ name: 'TypeScript', linkURL: 'https://www.typescriptlang.org/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
+		{ name: 'Svelte', linkURL: 'https://svelte.dev/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg' },
+		{ name: 'Astro', linkURL: 'https://astro.build', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg' },
+		{ name: 'Vite.js', linkURL: 'https://vitejs.dev/', imgURL: 'vite.png' },
+		{ name: 'Docker', linkURL: 'https://www.docker.com/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg' },
+		{ name: 'Shadcn UI', linkURL: 'https://ui.shadcn.com/', imgURL: '/shadcn-ui.png' },
+		{ name: 'Tailwind CSS', linkURL: 'https://tailwindcss.com/', imgURL: 'https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/tailwindcss/tailwindcss-original.svg' },
+	];
+
+	const genie_icons = [
 		{ name: 'TypeScript', linkURL: 'https://www.typescriptlang.org/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
 		{ name: 'Svelte', linkURL: 'https://svelte.dev/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg' },
 		{ name: 'Vite.js', linkURL: 'https://vitejs.dev/', imgURL: 'vite.png' },
@@ -65,6 +75,7 @@
 		{ name: 'Shadcn UI', linkURL: 'https://ui.shadcn.com/', imgURL: '/shadcn-ui.png' },
 		{ name: 'Tailwind CSS', linkURL: 'https://tailwindcss.com/', imgURL: 'https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/tailwindcss/tailwindcss-original.svg' },
 	];
+
 
 	const vertical_spanish_icons = [
 		{ name: 'TypeScript', linkURL: 'https://www.typescriptlang.org/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
@@ -137,7 +148,7 @@
 					description="Merlin is a powerful AI tool that automates customer support emails, giving superpowers to customer support agents. Merlin is a product of MLytica."
 					linkURL="https://mlytica.com"
 					imgURL="merlin_ss.png"
-					icons={mlytica_icons}
+					icons={merlin_icons}
 			 />		
 
 				<Product
@@ -147,7 +158,7 @@
 					description="Genie is your personal AI assistant and can fill in many roles to help in a variety of departments and teams as well as individuals. Genie is a product of MLytica."
 					linkURL="https://mlytica.com"
 					imgURL="genie_ss.png"
-					icons={mlytica_icons}
+					icons={genie_icons}
 		 		/>	
 
 				<Product
