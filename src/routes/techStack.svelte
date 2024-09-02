@@ -7,7 +7,7 @@
 		<h2 class="text-3xl font-bold tracking-tight text-center sm:text-4xl bg-gradient-to-r text-indigo-300 glow">Technologies Used</h2>
 		<div class="bg-slate-950">
 			<div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
-				<div class="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-8">
+				<div class="grid grid-cols-4 gap-8 md:grid-cols-6 lg:grid-cols-8">
 					<Icon name="TypeScript" linkURL="https://www.typescriptlang.org/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
 					<Icon name="JavaScript" linkURL="https://en.wikipedia.org/wiki/JavaScript" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 					<Icon name="Node.js" linkURL="https://nodejs.org/en" imgURL="node.png" />
