@@ -14,6 +14,7 @@
 					<Icon name="Bun" linkURL="https://bun.sh" imgURL="bun.svg" />
 					<Icon name="Svelte" linkURL="https://svelte.dev/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg" />
 					<Icon name="React" linkURL="https://react.dev/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+					<Icon name="Alpine.js" linkURL="https://alpinejs.dev/" imgURL="alpine.png" />
 					<Icon name="Next.js" linkURL="https://nextjs.org/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
 					<Icon name="Astro" linkURL="https://astro.build/" imgURL="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg" />
 					<Icon name="Vite.js" linkURL="https://vitejs.dev/" imgURL="vite.png" />

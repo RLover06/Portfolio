@@ -112,7 +112,7 @@
 			/>
 
 			<Product 
-				category="Co-Founder"
+				category="Co-Creator"
 				laborOfLove={false}
 				title="UpScout.io"
 				description="Messaging and filtering system for UpWork. We allow freelancers to filter out the noise and focus on the jobs that matter. Sit back and let the jobs come to you."
@@ -130,36 +130,6 @@
 				imgURL="dataforest_ss.png"
 				icons={data_forest_icons}
 			/>
-
-			<Product
-				category="Full-Stack Developer"
-				laborOfLove={false}
-				title="Chatnode.ai"
-				description="I thoroughly enjoyed my role in the full-stack development of both the chatbot (core product) and client dashboard at ChatNode."
-				linkURL="https://chatnode.ai"
-				imgURL="chatnode_ss.png"
-				icons={chat_node_icons}
-			/>
-
-			 <Product
-			 		category="Frontend Developer"
-					laborOfLove={false}
-					title="Merlin @ MLytica"
-					description="Merlin is a powerful AI tool that automates customer support emails, giving superpowers to customer support agents. Merlin is a product of MLytica."
-					linkURL="https://mlytica.com"
-					imgURL="merlin_ss.png"
-					icons={merlin_icons}
-			 />		
-
-				<Product
-					category="Frontend Developer"
-					laborOfLove={false}
-					title="Genie @ MLytica"
-					description="Genie is your personal AI assistant and can fill in many roles to help in a variety of departments and teams as well as individuals. Genie is a product of MLytica."
-					linkURL="https://mlytica.com"
-					imgURL="genie_ss.png"
-					icons={genie_icons}
-		 		/>	
 
 				<Product
 					category="Creator"

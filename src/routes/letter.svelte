@@ -8,7 +8,7 @@
 	on:mouseout={() => (isHovered = false)}
 	on:focus={() => (isHovered = true)}
 	on:blur={() => (isHovered = false)}
-	class="mx-2 p-6 md:mx-48 py-32 my-16 lg:px-8 text-left rounded-md bg-gradient-to-b from-neutral-100 to-neutral-300 object-cover hover:outline-dotted hover:outline-4 outline-indigo-400 outline-offset-4 glow-box"
+	class="mx-2 p-6 py-32 my-16 lg:px-8 text-left rounded-md bg-gradient-to-b from-neutral-100 to-neutral-300 object-cover hover:outline-dotted hover:outline-4 outline-indigo-400 outline-offset-4 glow-box"
 >
 	<div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
 		<p class="text-base font-semibold leading-7 text-indigo-600">Bio</p>
