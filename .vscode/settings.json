@@ -1,3 +1,8 @@
 {
-	"liveServer.settings.port": 5501
+	"workbench.colorCustomizations": {},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "file",
+	"notebook.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.documentSelectors": ["**/*.svelte"]
 }
