@@ -68,7 +68,7 @@
 
 <!-- Certifications -->
 <div transition:blur={{ duration: 5500 }} class="flex w-1/2 mx-auto justify-between my-10 px-24">
-  <img class="size-32" src="logo-aws-cp.png" alt="">
-  <img class="size-32" src="logo-aws-sa.png" alt="">
-  <img class="size-32" src="logo-aws-d.png" alt="">
+  <img class="size-32 shake-on-hover" src="logo-aws-cp.png" alt="">
+  <img class="size-32 shake-on-hover" src="logo-aws-sa.png" alt="">
+  <img class="size-32 shake-on-hover" src="logo-aws-d.png" alt="">
 </div>
