@@ -22,7 +22,7 @@
 {#if ready}
   <Header/>
   <Hero/>
-  <Testimonials/>
+  <!-- <Testimonials/> -->
   <Letter/>
   <TechStack/>
   <Products/>
