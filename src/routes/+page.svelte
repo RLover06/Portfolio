@@ -10,6 +10,7 @@
   import Favorites from './favorites.svelte';
   import Footer from './footer.svelte';
 	import Youtube from './youtube.svelte';
+	import Testimonials from './testimonials.svelte';
 
   let ready = false;
 
@@ -21,6 +22,7 @@
 {#if ready}
   <Header/>
   <Hero/>
+  <Testimonials/>
   <Letter/>
   <TechStack/>
   <Products/>
