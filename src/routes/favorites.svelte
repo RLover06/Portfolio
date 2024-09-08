@@ -76,7 +76,7 @@
 </script>
 
 <div class="md:w-3/5 mx-auto text-white">
-	<h2 class="text-center text-3xl leading-9 font-extrabold text-green-400 sm:text-4xl sm:leading-10 glow-green">Favorites</h2>
+	<h2 class="text-center text-3xl leading-9 font-extrabold text-green-400 sm:text-4xl sm:leading-10 glow-green  space-grotesk">Favorites</h2>
 	<Accordion.Root>
 		<!-- Books -->
 		<Accordion.Item value="books">

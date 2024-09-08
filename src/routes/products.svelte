@@ -95,7 +95,7 @@
 <div id="products" class="bg-slate-950 py-12 sm:py-16">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl text-center">
-			<h2 class="text-3xl font-bold tracking-tight sm:text-4xl bg-gradient-to-r text-indigo-300 glow">Public Products</h2>
+			<h2 class="text-3xl font-bold tracking-tight sm:text-4xl bg-gradient-to-r text-indigo-300 glow  space-grotesk">Public Products</h2>
 			<p class="mt-2 text-lg leading-8 text-gray-400">Here are a few of public facing products that I have worked on.</p>
 		</div>
 

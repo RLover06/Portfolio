@@ -4,7 +4,7 @@
 
 <div class="bg-slate-950 pt-4 pb-1" id="tech">
 	<div class="">
-		<h2 class="text-3xl font-bold tracking-tight text-center sm:text-4xl bg-gradient-to-r text-indigo-300 glow">Technologies Used</h2>
+		<h2 class="text-3xl font-bold tracking-tight text-center sm:text-4xl bg-gradient-to-r text-indigo-300 glow  space-grotesk">Technologies Used</h2>
 		<div class="bg-slate-950">
 			<div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8">
 				<div class="grid grid-cols-4 gap-8 md:grid-cols-6 lg:grid-cols-8">

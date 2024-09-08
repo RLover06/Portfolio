@@ -2,7 +2,7 @@
 	<div class="pt-12 sm:pt-16 lg:pt-20">
 		<div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div class="text-center">
-				<h2 class="text-3xl leading-9 font-extrabold sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none text-indigo-300 glow">Contact</h2>
+				<h2 class="text-3xl leading-9 font-extrabold sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none text-indigo-300 glow  space-grotesk">Contact</h2>
 				<p class="mt-4 text-xl leading-7 text-gray-500" />
 			</div>
 		</div>
