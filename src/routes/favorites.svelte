@@ -14,7 +14,7 @@
 		{ col_1: 'Shoe Dog', col_2: 'Phil Knight' },
 		{ col_1: 'Crazy Love', col_2: 'Francis Chan' },
 		{ col_1: 'Tocqueville and the American Experiment', col_2: 'William R. Cook' },
-		{ col_1: 'Extreme Ownership', col_2: 'Jacko Wilink • Leif Babin' },
+		{ col_1: 'Extreme Ownership', col_2: 'Jocko Wilink • Leif Babin' },
 		{ col_1: 'Outliers', col_2: 'Malcom Gladwell' },
 		{ col_1: 'David and Goliath', col_2: 'Malcom Gladwell' },
 		{ col_1: 'A New Grammar Reference of Modern Spanish', col_2: 'John Butt • Carmen Benjamin' }
