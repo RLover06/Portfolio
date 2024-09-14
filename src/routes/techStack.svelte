@@ -41,6 +41,7 @@
 					<Icon name="Google Drive API" linkURL="https://developers.google.com/drive/api/guides/about-sdk" imgURL="google-drive.png" />
 					<Icon name="Contentful" linkURL="https://www.contentful.com/" imgURL="contentful.png" />
 					<Icon name="Lucia Auth" linkURL="https://lucia-auth.com/" imgURL="lucia.png" />
+					
 				</div>
 			</div>
 		</div>
