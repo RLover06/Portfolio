@@ -20,7 +20,7 @@
         <div class="space-y-8 xl:row-span-2">
           <figure class="rounded-2xl bg-gradient-to-tl from-slate-800 to-slate-600 p-6 shadow-lg ring-1 ring-gray-900/5">
             <blockquote class="text-gray-400  font-semibold text-base">
-              <p>“We had a pleasure working together and successfully completed the project. Hunter is skilled proffessional who adhered to our requirements and delivered great results.”</p>
+              <p>“We had a pleasure working together and successfully completed the project. Hunter is skilled professional who adhered to our requirements and delivered great results.”</p>
             </blockquote>
             <figcaption class="mt-6 flex items-center gap-x-4">
               <img class="h-10 w-10 rounded-full bg-gray-50" src="/michael.png" alt="">
@@ -38,7 +38,7 @@
         <div class="space-y-8 xl:row-span-2">
           <figure class="rounded-2xl bg-gradient-to-tl from-slate-800 to-slate-600 p-6 shadow-lg ring-1 ring-gray-900/5">
             <blockquote class="text-gray-400 font-semibold text-base">
-              <p>“Hunter was an absolute pleasure working with. He has very strong work ethics, very responsive and communicative. He's done a great job and fit in really well with the team. ”</p>
+              <p>“Hunter was an absolute pleasure working with. He has very strong work ethics, very responsive and communicative. He's done a great job and fit in really well with the team.”</p>
             </blockquote>
             <figcaption class="mt-6 flex items-center gap-x-4">
               <img class="h-10 w-10 rounded-full bg-gray-50" src="josh.jpg" alt="">
