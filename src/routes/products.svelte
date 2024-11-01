@@ -1,6 +1,21 @@
 <script lang="ts">
 	import Product from '$lib/components/product.svelte';
 
+	const campaign_hero_icons = [
+		{ name: 'TypeScript', linkURL: 'https://www.typescriptlang.org/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
+		{ name: 'Svelte', linkURL: 'https://svelte.dev/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg' },
+		{ name: 'Vite.js', linkURL: 'https://vitejs.dev/', imgURL: 'vite.png' },
+		{ name: 'Supabase', linkURL: 'https://supabase.com', imgURL: '/supabase.png' },
+		{ name: 'Pinecone', linkURL: 'https://www.pinecone.io', imgURL: 'https://yepcode.io/docs/img/integrations/icons/pinecone.svg' },
+		{ name: 'PostgreSQL', linkURL: 'https://www.postgresql.org/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
+		{ name: 'Prisma', linkURL: 'https://www.prisma.io/', imgURL: '/prisma.png' },
+		{ name: 'Tailwind CSS', linkURL: 'https://tailwindcss.com/', imgURL: 'https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/tailwindcss/tailwindcss-original.svg' },
+		{ name: 'Shadcn UI', linkURL: 'https://ui.shadcn.com/', imgURL: '/shadcn-ui.png' },
+		{ name: 'Lucia Auth', linkURL: 'https://lucia-auth.com/', imgURL: 'lucia.png' },
+		{ name: 'Vitest', linkURL: 'https://vitest.dev/', imgURL: 'vite-test.png' },
+		{ name: 'Vercel', linkURL: 'https://vercel.com/', imgURL: 'vercel.png' }
+	];
+
 	const air_mailer_icons = [
 		{ name: 'TypeScript', linkURL: 'https://www.typescriptlang.org/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
 		{ name: 'Svelte', linkURL: 'https://svelte.dev/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg' },
@@ -101,6 +116,16 @@
 
 		<!-- Products -->
 		<div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+			<Product
+				category="Founder"
+				laborOfLove={false}
+				title="CampaginHero.io"
+				description="CampaignHero.io is a search/discovery platform for email designs. It leverages vector databases to enable semantic and image-based search."
+				linkURL="https://CampaginHero.io"
+				imgURL="gradient-mountains.png"
+				icons={campaign_hero_icons}
+			/>
+
 			<Product
 				category="Founder"
 				laborOfLove={false}
