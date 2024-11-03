@@ -23,7 +23,7 @@
 								<h4 class="flex-shrink-0 pr-4 text-sm leading-5 tracking-wider font-semibold uppercase text-indigo-600">Available for:</h4>
 								<div class="flex-1 border-t-2 border-slate-800" />
 							</div>
-							<ul class="mt-8 lg:grid lg:grid-cols-2 lg:col-gap-8 lg:row-gap-5 gap-y-6">
+							<ul class="mt-8 grid grid-cols-2 col-gap-8 row-gap-5 lg:gap-y-6">
 								<li class="flex items-start lg:col-span-1">
 									<div class="flex-shrink-0">
 										<svg class="h-5 w-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20">

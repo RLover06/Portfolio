@@ -21,12 +21,12 @@
 	}
 	.front {
 		display: block;
-		padding: 8px 24px;
+		padding: 4px 12px;
 		border-radius: 12px;
-		font-size: 1.25rem;
+		font-size: 1rem;
 		background: hsl(349, 98%, 58%);
 		color: white;
-		transform: translateY(-6px);
+		transform: translateY(-3px);
 	}
 
 	.pushable:active .front {
