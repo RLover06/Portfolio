@@ -119,7 +119,7 @@
 			<Product
 				category="Founder"
 				laborOfLove={false}
-				title="CampaginHero.io"
+				title="CampaginHero.io (wip)"
 				description="CampaignHero.io is a search/discovery platform for email designs. It leverages vector databases to enable semantic and image-based search."
 				linkURL="https://CampaginHero.io"
 				imgURL="gradient-mountains.png"
