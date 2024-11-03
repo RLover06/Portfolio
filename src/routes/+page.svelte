@@ -9,8 +9,8 @@
   import Contact from './contact.svelte';
   import Favorites from './favorites.svelte';
   import Footer from './footer.svelte';
-	import Youtube from './youtube.svelte';
 	import Testimonials from './testimonials.svelte';
+	import OpenSource from '$lib/components/openSource.svelte';
 
   let ready = false;
 
@@ -25,8 +25,8 @@
   <Testimonials/>
   <Letter/>
   <TechStack/>
+  <OpenSource />
   <Products/>
-  <!-- <Youtube /> -->
   <LaunchSchool/>
   <Contact/>
   <Favorites/>
