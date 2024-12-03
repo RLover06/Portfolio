@@ -11,7 +11,6 @@
 			<img src="/hunter-coco.jpg" alt="" class="h-full w-full object-cover rounded-full glow-box hidden group-hover:block" />
 		</div>
 
-		
 		<h2 transition:blur={{ duration: 2000 }} class="mt-10 text-4xl tracking-tight leading-10 font-extrabold text-gray-100 sm:text-5xl sm:leading-none md:text-6xl drop-shadow-lg glow space-grotesk">
 			Hunter Stevens
 			<br />
@@ -28,7 +27,9 @@
 					/>
 				</svg>
 				<a href="https://www.uh.edu/" target="_blank">
-					<span class="font-semibold bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 text-transparent bg-clip-text"> University of Houston <span class="hidden md:inline">(BBA in Marketing)</span> </span>
+					<span class="font-semibold bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 text-transparent bg-clip-text">
+						University of Houston <span class="hidden md:inline">(BBA in Marketing)</span>
+					</span>
 				</a>
 				<br />
 			</div>
@@ -48,23 +49,19 @@
 				</a>
 			</div>
 
-			<div transition:blur={{ duration: 4500 }} class="flex justify-center gap-2  items-center">
+			<div transition:blur={{ duration: 4500 }} class="flex justify-center gap-2 items-center">
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-					<path stroke-linecap="round" stroke-linejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"
+					/>
 				</svg>
 				<div class="flex gap-2 items-center">
 					<a href="https://www.youtube.com/@HunterScript/featured" class="px-1.5 bg-white/20 rounded-xl border-2 border-gray-700 hover:bg-white/10">
-						<button class="font-semibold bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 text-transparent bg-clip-text">
-							@HunterScript
-						</button>
+						<button class="font-semibold bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 text-transparent bg-clip-text"> @HunterScript </button>
 					</a>
-
-					<a href="https://www.youtube.com/@VerticalSpanish/featured" class="px-1.5 bg-white/20 rounded-xl border-2 border-gray-700 hover:bg-white/10">
-						<button class="font-semibold bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 text-transparent bg-clip-text">
-							@VerticalSpanish
-						</button>
-					</a>
-				</div>				
+				</div>
 			</div>
 		</div>
 	</div>
