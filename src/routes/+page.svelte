@@ -1,34 +1,34 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-  import Header from './header.svelte';
-  import Hero from './hero.svelte';
-  import Letter from './letter.svelte';
-  import TechStack from './techStack.svelte';
-  import Products from './products.svelte';
-  import LaunchSchool from './launchSchool.svelte';
-  import Contact from './contact.svelte';
-  import Favorites from './favorites.svelte';
-  import Footer from './footer.svelte';
-	import Testimonials from './testimonials.svelte';
-	import OpenSource from '$lib/components/openSource.svelte';
+	import { onMount } from 'svelte';
+	import Header from './Header.svelte';
+	import Hero from './Hero.svelte';
+	import Letter from './Letter.svelte';
+	import TechStack from './TechStack.svelte';
+	import Products from './Products.svelte';
+	import LaunchSchool from './LaunchSchool.svelte';
+	import Contact from './Contact.svelte';
+	import Favorites from './Favorites.svelte';
+	import Footer from './Footer.svelte';
+	import Testimonials from './Testimonials.svelte';
+	import OpenSource from '$lib/components/OpenSource.svelte';
 
-  let ready = false;
+	let ready = false;
 
-  onMount(() => {
-    ready = true;
-  })
+	onMount(() => {
+		ready = true;
+	});
 </script>
 
 {#if ready}
-  <Header/>
-  <Hero/>
-  <Testimonials/>
-  <Letter/>
-  <TechStack/>
-  <OpenSource />
-  <Products/>
-  <LaunchSchool/>
-  <Contact/>
-  <Favorites/>
-  <Footer/>
+	<Header />
+	<Hero />
+	<Testimonials />
+	<Letter />
+	<TechStack />
+	<OpenSource />
+	<Products />
+	<LaunchSchool />
+	<Contact />
+	<Favorites />
+	<Footer />
 {/if}

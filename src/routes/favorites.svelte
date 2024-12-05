@@ -1,6 +1,6 @@
 <script lang="ts">
 	import * as Accordion from '$lib/components/ui/accordion';
-	import Favorite from '$lib/components/favorite.svelte';
+	import Favorite from '$lib/components/Favorite.svelte';
 
 	const books = [
 		{ col_1: 'The Little Prince', col_2: 'Antoine de Saint-Exupéry' },
@@ -17,7 +17,7 @@
 		{ col_1: 'Extreme Ownership', col_2: 'Jocko Wilink • Leif Babin' },
 		{ col_1: 'Outliers', col_2: 'Malcom Gladwell' },
 		{ col_1: 'David and Goliath', col_2: 'Malcom Gladwell' },
-		{ col_1: 'A New Grammar Reference of Modern Spanish', col_2: 'John Butt • Carmen Benjamin' }
+		{ col_1: 'A New Grammar Reference of Modern Spanish', col_2: 'John Butt • Carmen Benjamin' },
 	];
 
 	const movies = [
@@ -30,7 +30,7 @@
 		{ col_1: '100 Foot Journey' },
 		{ col_1: 'The Matrix' },
 		{ col_1: 'Training Day' },
-		{ col_1: 'Catch Me If You Can' }
+		{ col_1: 'Catch Me If You Can' },
 	];
 
 	const shows = [
@@ -43,7 +43,7 @@
 		{ col_1: 'Cheers' },
 		{ col_1: 'Yu Yu Hakusho' },
 		{ col_1: 'True Detective' },
-		{ col_1: 'Fargo' }
+		{ col_1: 'Fargo' },
 	];
 
 	const places = [
@@ -76,7 +76,11 @@
 </script>
 
 <div class="w-11/12 md:w-3/5 mx-auto text-white">
-	<h2 class="text-center text-3xl leading-9 font-extrabold text-green-400 sm:text-4xl sm:leading-10 glow-green  space-grotesk">Favorites</h2>
+	<h2
+		class="text-center text-3xl leading-9 font-extrabold text-green-400 sm:text-4xl sm:leading-10 glow-green space-grotesk"
+	>
+		Favorites
+	</h2>
 	<Accordion.Root>
 		<!-- Books -->
 		<Accordion.Item value="books">
