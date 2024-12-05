@@ -2,7 +2,7 @@
 	<div class="pt-12 sm:pt-16 lg:pt-20">
 		<div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div class="text-center">
-				<h2 class="text-3xl leading-9 font-extrabold sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none text-indigo-300 glow  space-grotesk">Contact</h2>
+				<h2 class="text-3xl leading-9 font-extrabold sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none text-indigo-300 glow space-grotesk">Contact</h2>
 				<p class="mt-4 text-xl leading-7 text-gray-500" />
 			</div>
 		</div>
@@ -24,7 +24,7 @@
 								<div class="flex-1 border-t-2 border-slate-800" />
 							</div>
 							<ul class="mt-8 grid grid-cols-2 col-gap-8 row-gap-5 lg:gap-y-6">
-								<li class="flex items-start lg:col-span-1">
+								<!-- <li class="flex items-start lg:col-span-1">
 									<div class="flex-shrink-0">
 										<svg class="h-5 w-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20">
 											<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
@@ -39,11 +39,15 @@
 										</svg>
 									</div>
 									<p class="ml-3 text-sm leading-5 text-gray-700">Part-Time Positions</p>
-								</li>
+								</li> -->
 								<li class="mt-5 flex items-start lg:col-span-1 lg:mt-0">
 									<div class="flex-shrink-0">
 										<svg class="h-5 w-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20">
-											<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+											<path
+												fill-rule="evenodd"
+												d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+												clip-rule="evenodd"
+											/>
 										</svg>
 									</div>
 									<p class="ml-3 text-sm leading-5 text-gray-700">Contract Positions</p>
@@ -51,7 +55,11 @@
 								<li class="mt-5 flex items-start lg:col-span-1 lg:mt-0">
 									<div class="flex-shrink-0">
 										<svg class="h-5 w-5 text-indigo-500" fill="currentColor" viewBox="0 0 20 20">
-											<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+											<path
+												fill-rule="evenodd"
+												d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+												clip-rule="evenodd"
+											/>
 										</svg>
 									</div>
 									<p class="ml-3 text-sm leading-5 text-gray-700">Consulting Positions</p>
