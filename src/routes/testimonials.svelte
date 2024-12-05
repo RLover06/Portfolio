@@ -30,11 +30,17 @@
 <div class="relative isolate pb-16 pt-24 sm:pt-32">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-xl text-center">
-			<h2 class="text-3xl font-bold tracking-tight text-center sm:text-4xl bg-gradient-to-r text-indigo-300 glow space-grotesk">Testimonials</h2>
+			<h2
+				class="text-3xl font-bold tracking-tight text-center sm:text-4xl bg-gradient-to-r text-indigo-300 glow space-grotesk"
+			>
+				Testimonials
+			</h2>
 		</div>
 		<div class="mx-auto mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2 max-w-6xl">
 			{#each testimonials as { text, author, company, image }}
-				<figure class="rounded-2xl bg-gradient-to-tl from-slate-800 to-slate-600 p-6 shadow-lg ring-1 ring-gray-900/5 flex flex-col h-full">
+				<figure
+					class="rounded-2xl bg-gradient-to-tl from-slate-800 to-slate-600 p-6 shadow-lg ring-1 ring-gray-900/5 flex flex-col h-full flex-grow"
+				>
 					<blockquote class="text-gray-400 font-semibold text-base flex-grow">
 						<p>"{text}"</p>
 					</blockquote>
