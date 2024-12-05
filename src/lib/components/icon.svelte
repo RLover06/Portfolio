@@ -6,6 +6,8 @@
 	export let linkURL: string = '';
 	export let imgURL: string = '';
 
+	console.log(name);
+
 	let tooltip: HTMLElement;
 	let referenceElement: HTMLElement;
 	let popperInstance: any = null;
@@ -22,7 +24,7 @@
 	onMount(() => {
 		try {
 			popperInstance = createPopper(referenceElement, tooltip, {
-				placement: 'top'
+				placement: 'top',
 			});
 			tooltip.style.display = 'none';
 
@@ -43,7 +45,8 @@
 	<div bind:this={tooltip} class="fixed py- text-indigo-300 text-lg font-semibold glow space-grotesk" style="display: none;">{name}</div>
 	<a bind:this={referenceElement} href={linkURL} target="_blank">
 		<img
-			class="h-14 {name === 'Docker' ? 'p-0' : 'p-2'} p-2 col-span-1 mx-auto flex justify-center object-cover bg-gradient-to-b from-slate-500 to bg-slate-700 rounded-lg shake-on-hover border border-1 border-slate-500 shadow-md shadow-neutral-700"
+			class="h-14 p-2 col-span-1 mx-auto flex justify-center object-cover bg-gradient-to-b from-slate-500 to bg-slate-700 rounded-lg shake-on-hover border border-1 border-slate-500 shadow-md shadow-neutral-700
+			{name === 'Docker' ? 'p-0' : 'p-2'}"
 			src={imgURL}
 			alt=""
 		/>

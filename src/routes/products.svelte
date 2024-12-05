@@ -8,17 +8,13 @@
 		{ name: 'Vite.js', linkURL: 'https://vitejs.dev/', imgURL: 'vite.png' },
 		{ name: 'Pinecone', linkURL: 'https://www.pinecone.io', imgURL: 'https://yepcode.io/docs/img/integrations/icons/pinecone.svg' },
 		{ name: 'Replicate', linkURL: 'https://replicate.com', imgURL: 'replicate.jpg' },
-		// { name: 'Supabase', linkURL: 'https://supabase.com', imgURL: '/supabase.png' },
-		// { name: 'PostgreSQL', linkURL: 'https://www.postgresql.org/', imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg' },
-		// { name: 'Prisma', linkURL: 'https://www.prisma.io/', imgURL: '/prisma.png' },
+		{ name: 'Cloudinary', linkURL: 'https://cloudinary.com/', imgURL: 'cloudinary.png' },
 		{
 			name: 'Tailwind CSS',
 			linkURL: 'https://tailwindcss.com/',
 			imgURL: 'https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/tailwindcss/tailwindcss-original.svg',
 		},
 		{ name: 'Shadcn UI', linkURL: 'https://ui.shadcn.com/', imgURL: '/shadcn-ui.png' },
-		// { name: 'Lucia Auth', linkURL: 'https://lucia-auth.com/', imgURL: 'lucia.png' },
-		// { name: 'Vitest', linkURL: 'https://vitest.dev/', imgURL: 'vite-test.png' },
 		{ name: 'Vercel', linkURL: 'https://vercel.com/', imgURL: 'vercel.png' },
 	];
 
@@ -148,8 +144,6 @@
 		<!-- Products -->
 		<div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
 			<Product
-				category="Founder"
-				laborOfLove={false}
 				title="CampaginHero.io"
 				description="CampaignHero.io is a search/discovery platform for email designs. It leverages vector databases to enable semantic and image-based search."
 				linkURL="https://CampaginHero.io"
@@ -158,8 +152,6 @@
 			/>
 
 			<Product
-				category="Founder"
-				laborOfLove={false}
 				title="AirMailer.io"
 				description="AirMailer.io allows marketers to generate mailing list with just a few clicks. I like to think of it as a vending machine for addresses. (94 Million Addresses)"
 				linkURL="https://airmailer.io"
@@ -168,8 +160,6 @@
 			/>
 
 			<Product
-				category="Co-Creator"
-				laborOfLove={false}
 				title="UpScout.io"
 				description="Messaging and filtering system for UpWork. We allow freelancers to filter out the noise and focus on the jobs that matter. Sit back and let the jobs come to you."
 				linkURL="https://upscout.io"
@@ -178,8 +168,6 @@
 			/>
 
 			<Product
-				category="Creator"
-				laborOfLove={false}
 				title="DataForest.io"
 				description="DataForest.io allows marketers to market geotarget homeowners. Think, Google Maps for homeowner + propery data."
 				linkURL="https://dataforest.io"
@@ -188,8 +176,6 @@
 			/>
 
 			<Product
-				category="Creator"
-				laborOfLove={true}
 				title="VerticalSpanish.com"
 				description="Vertical Spanish allows Spanish students to study spanish verbs in a world that inspires. Conjugators are notorious for being overpopulated with ads, but not here!"
 				linkURL="https://verticalspanish.com"
