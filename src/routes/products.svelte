@@ -145,7 +145,7 @@
 		<div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
 			<Product
 				title="CampaginHero.io"
-				description="CampaignHero.io is a search/discovery platform for email designs. It leverages vector databases to enable semantic and image-based search."
+				description="CampaignHero.io is a search/discovery platform for 14,200 email designs. It leverages vector databases to enable semantic and image-based search."
 				linkURL="https://CampaginHero.io"
 				imgURL="ch-demo.png"
 				icons={campaign_hero_icons}
