@@ -57,7 +57,8 @@ const config = {
 			fontFamily: {
 				sans: [...fontFamily.sans]
 			}
-		}
+		},
+		// plugins: [require('tailwindcss-motion')]
 	}
 };
 

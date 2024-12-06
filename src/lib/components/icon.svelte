@@ -42,7 +42,13 @@
 </script>
 
 <div class="my-2">
-	<div bind:this={tooltip} class="fixed py- text-indigo-300 text-lg font-semibold glow space-grotesk" style="display: none;">{name}</div>
+	<div
+		bind:this={tooltip}
+		class="fixed py- text-indigo-300 text-lg font-semibold glow space-grotesk"
+		style="display: none;"
+	>
+		{name}
+	</div>
 	<a bind:this={referenceElement} href={linkURL} target="_blank">
 		<img
 			class="h-14 p-2 col-span-1 mx-auto flex justify-center object-cover bg-gradient-to-b from-slate-500 to bg-slate-700 rounded-lg shake-on-hover border border-1 border-slate-500 shadow-md shadow-neutral-700
