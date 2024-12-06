@@ -39,7 +39,7 @@
 		<div class="mx-auto mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2 max-w-6xl">
 			{#each testimonials as { text, author, company, image }}
 				<figure
-					class="rounded-2xl bg-gradient-to-tl from-slate-800 to-slate-600 p-6 shadow-lg ring-1 ring-gray-900/5 flex flex-col h-full flex-grow"
+					class="hover:motion-preset-shake rounded-2xl bg-gradient-to-tl from-slate-800 to-slate-600 p-6 shadow-lg ring-1 ring-gray-900/5 flex flex-col h-full flex-grow"
 				>
 					<blockquote class="text-gray-400 font-semibold text-base flex-grow">
 						<p>"{text}"</p>

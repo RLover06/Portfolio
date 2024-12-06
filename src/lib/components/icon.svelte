@@ -6,8 +6,6 @@
 	export let linkURL: string = '';
 	export let imgURL: string = '';
 
-	console.log(name);
-
 	let tooltip: HTMLElement;
 	let referenceElement: HTMLElement;
 	let popperInstance: any = null;
@@ -21,23 +19,34 @@
 		tooltip.style.display = 'none';
 	}
 
-	onMount(() => {
+	function initializePopper() {
 		try {
 			popperInstance = createPopper(referenceElement, tooltip, {
 				placement: 'top',
 			});
 			tooltip.style.display = 'none';
-
-			referenceElement.addEventListener('mouseover', showTooltip);
-			referenceElement.addEventListener('mouseout', hideTooltip);
 		} catch (error) {
 			console.error('Popper initialization error:', error);
 		}
+	}
+
+	function addEventListeners() {
+		referenceElement.addEventListener('mouseover', showTooltip);
+		referenceElement.addEventListener('mouseout', hideTooltip);
+	}
+
+	function removeEventListeners() {
+		referenceElement.removeEventListener('mouseover', showTooltip);
+		referenceElement.removeEventListener('mouseout', hideTooltip);
+	}
+
+	onMount(() => {
+		initializePopper();
+		addEventListeners();
 	});
 
 	onDestroy(() => {
-		referenceElement.removeEventListener('mouseover', showTooltip);
-		referenceElement.removeEventListener('mouseout', hideTooltip);
+		removeEventListeners();
 	});
 </script>
 
