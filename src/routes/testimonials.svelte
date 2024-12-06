@@ -39,13 +39,13 @@
 		<div class="mx-auto mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2 max-w-6xl">
 			{#each testimonials as { text, author, company, image }}
 				<figure
-					class="hover:motion-preset-shake rounded-2xl bg-gradient-to-tl from-slate-800 to-slate-600 p-6 shadow-lg ring-1 ring-gray-900/5 flex flex-col h-full flex-grow"
+					class="group rounded-2xl bg-gradient-to-tl from-slate-800 to-slate-600 p-6 shadow-lg ring-1 ring-gray-900/5 flex flex-col h-full flex-grow hover:outline-dotted hover:outline-4 outline-indigo-400 outline-offset-4"
 				>
 					<blockquote class="text-gray-400 font-semibold text-base flex-grow">
 						<p>"{text}"</p>
 					</blockquote>
 					<figcaption class="mt-6 flex items-center gap-x-4">
-						<img class="h-10 w-10 rounded-full bg-gray-50" src={image} alt="" />
+						<img class="h-10 w-10 rounded-full bg-gray-50 group-hover:motion-preset-shake" src={image} alt="" />
 						<div>
 							<div class="font-semibold text-gray-300">{author}</div>
 							<div class="text-gray-300">{company}</div>

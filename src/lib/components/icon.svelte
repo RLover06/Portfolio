@@ -9,13 +9,17 @@
 	let tooltip: HTMLElement;
 	let referenceElement: HTMLElement;
 	let popperInstance: any = null;
+	let tooltipTimeout: ReturnType<typeof setTimeout>;
 
 	function showTooltip() {
-		tooltip.style.display = 'block';
-		popperInstance.update();
+		tooltipTimeout = setTimeout(() => {
+			tooltip.style.display = 'block';
+			popperInstance.update();
+		}, 100);
 	}
 
 	function hideTooltip() {
+		clearTimeout(tooltipTimeout);
 		tooltip.style.display = 'none';
 	}
 
@@ -60,7 +64,7 @@
 	</div>
 	<a bind:this={referenceElement} href={linkURL} target="_blank">
 		<img
-			class="h-14 p-2 col-span-1 mx-auto flex justify-center object-cover bg-gradient-to-b from-slate-500 to bg-slate-700 rounded-lg shake-on-hover border border-1 border-slate-500 shadow-md shadow-neutral-700
+			class="h-14 p-2 col-span-1 mx-auto flex justify-center object-cover bg-gradient-to-b from-slate-500 to bg-slate-700 rounded-lg hover:motion-preset-shake border border-1 border-slate-500 shadow-md shadow-neutral-700
 			{name === 'Docker' ? 'p-0' : 'p-2'}"
 			src={imgURL}
 			alt=""
