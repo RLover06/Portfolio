@@ -279,7 +279,7 @@
 	];
 </script>
 
-<div id="products" class="bg-slate-950 py-12 sm:py-16">
+<div id="products" class="py-12 sm:py-16">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl text-center">
 			<h2

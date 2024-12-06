@@ -1,4 +1,6 @@
 <script>
+	import { animate, stagger, inView } from 'motion';
+	import { onMount } from 'svelte';
 	const testimonials = [
 		{
 			text: 'What truly sets Hunter apart is his ability to communicate complex ideas clearly. He is an amazing presenter who ensured all stakeholders understood the progress and technical details. His proactive updates and problem-solving attitude made the collaboration smooth and productive. I highly recommend Hunter for any Svelte or React.js projects. He is a reliable and talented professional who delivers great results. Would definitely work with him again!',
@@ -25,19 +27,27 @@
 			image: 'josh.jpg',
 		},
 	];
+
+	onMount(() => {
+		inView('#animation-trigger', () => {
+			animate('figure', { opacity: 1, y: [25, 0] }, { delay: stagger(0.15) });
+		});
+	});
 </script>
 
-<div class="relative isolate pb-16 pt-24 sm:pt-32">
+<div class="relative isolate pb-16">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-xl text-center">
 			<h2
+				id="testimonials-title"
 				class="text-3xl font-bold tracking-tight text-center sm:text-4xl bg-gradient-to-r text-indigo-300 glow space-grotesk"
 			>
 				Testimonials
 			</h2>
 		</div>
-		<div class="mx-auto mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2 max-w-6xl">
-			{#each testimonials as { text, author, company, image }}
+		<div class="relative isolate mx-auto mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2 max-w-6xl">
+			<div id="animation-trigger" class="h-1 w-full absolute top-[30rem]" />
+			{#each testimonials as { text, author, company, image }, i}
 				<figure
 					class="group rounded-2xl bg-gradient-to-tl from-slate-800 to-slate-600 p-6 shadow-lg ring-1 ring-gray-900/5 flex flex-col h-full flex-grow hover:outline-dotted hover:outline-4 outline-indigo-400 outline-offset-4"
 				>

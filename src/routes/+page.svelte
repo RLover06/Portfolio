@@ -10,7 +10,7 @@
 	import Favorites from './Favorites.svelte';
 	import Footer from './Footer.svelte';
 	import Testimonials from './Testimonials.svelte';
-	import OpenSource from '$lib/components/OpenSource.svelte';
+	import OpenSource from './OpenSource.svelte';
 
 	let ready = false;
 
@@ -20,15 +20,18 @@
 </script>
 
 {#if ready}
-	<Header />
-	<Hero />
-	<Testimonials />
-	<Letter />
-	<TechStack />
-	<OpenSource />
-	<Products />
-	<LaunchSchool />
-	<Contact />
-	<Favorites />
-	<Footer />
+	<div class="bg-slate-950">
+		<Header />
+		<Hero />
+		<Testimonials />
+		<Letter />
+		<TechStack />
+		<OpenSource />
+		<Products />
+		<LaunchSchool />
+		<Contact />
+		<Favorites />
+		<Footer />
+	</div>
 {/if}
+	
