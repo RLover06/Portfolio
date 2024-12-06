@@ -58,8 +58,8 @@ const config = {
 				sans: [...fontFamily.sans]
 			}
 		},
-		plugins: [require('tailwindcss-motion')]
-	}
+	},
+	plugins: [require('tailwindcss-motion')]
 };
 
 export default config;
