@@ -58,23 +58,6 @@ body {
 	}
 }
 
-.image-wrapper::before {
-	content: '';
-	position: absolute;
-	top: -2px; /* Adjust based on desired offset */
-	left: -2px; /* Adjust based on desired offset */
-	width: calc(100% + 4px); /* Adjust based on desired offset */
-	height: calc(100% + 4px); /* Adjust based on desired offset */
-	border: 4px dashed #aaabef;
-	border-radius: 50%;
-	animation: spin 100s linear infinite;
-}
-
-.image-wrapper img {
-	position: relative;
-	z-index: 1;
-}
-
 .hithere {
 	display: inline-block;
 	animation: hithere 2s;

@@ -5,7 +5,7 @@
 	import BadgeIcon from '$lib/svgs/Badge.svelte';
 	import GraduationIcon from '$lib/svgs/Graduation.svelte';
 	import WordsFadeIn from '$lib/components/WordsFadePullUp.svelte';
-	import AnimatedShinyText from '$lib/components/AnimatedShinyText.svelte';
+	// import AnimatedShinyText from '$lib/components/AnimatedShinyText.svelte';
 	let image = '/hunter-coco.jpg';
 	let primaryTitleIsReady = false;
 	let secondaryTitleIsReady = false;
@@ -22,20 +22,32 @@
 
 <div class="mx-auto max-w-screen-xl px-2 sm:px-6 md:mt-16 h-screen">
 	<div class="text-center">
-		<div
-			transition:blur={{ delay: 200, duration: 600 }}
-			class="image-wrapper relative w-3/4 md:w-1/3 h-auto mx-auto p-4 rounded-full group"
-		>
-			<img
-				src="/headshot.jpeg"
-				alt=""
-				class="h-full w-full object-cover rounded-full glow-box group-hover:hidden"
-			/>
-			<img
-				src="/hunter-coco.jpg"
-				alt=""
-				class="h-full w-full object-cover rounded-full glow-box hidden group-hover:block"
-			/>
+		<div class="relative w-3/4 md:w-1/3 aspect-square mx-auto group">
+			<div 
+				transition:blur={{ delay: 200, duration: 600 }}
+				class="absolute inset-0 image-wrapper group-hover:opacity-0 transition-opacity duration-300"
+			>
+				<div class="absolute inset-3 rounded-full overflow-hidden">
+					<img
+						src="/headshot.jpeg"
+						alt=""
+						class="w-full h-full object-cover"
+					/>
+				</div>
+			</div>
+
+			<div 
+				transition:blur={{ delay: 200, duration: 600 }}
+				class="absolute inset-0 image-wrapper opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+			>
+				<div class="absolute inset-3 rounded-full overflow-hidden">
+					<img
+						src="/hunter-coco.jpg"
+						alt=""
+						class="w-full h-full object-cover"
+					/>
+				</div>
+			</div>
 		</div>
 
 		{#if primaryTitleIsReady}
@@ -100,3 +112,22 @@
   <img class="size-32 hover:motion-preset-shake" src="logo-aws-sa.png" alt="">
   <img class="size-32 hover:motion-preset-shake" src="logo-aws-d.png" alt="">
 </div> -->
+
+<style>
+	.image-wrapper::before {
+		content: '';
+		position: absolute;
+		top: -2px; /* Adjust based on desired offset */
+		left: -2px; /* Adjust based on desired offset */
+		width: calc(100% + 4px); /* Adjust based on desired offset */
+		height: calc(100% + 4px); /* Adjust based on desired offset */
+		border: 4px dashed #aaabef;
+		border-radius: 50%;
+		animation: spin 100s linear infinite;
+	}
+
+.image-wrapper img {
+	position: relative;
+	z-index: 1;
+}
+</style>
