@@ -92,7 +92,7 @@
 				<div class="flex gap-2 items-center">
 					<a
 						href="https://www.youtube.com/@HunterScript/featured"
-						class="px-1.5 -py-1 bg-white/20 rounded-xl border-2 border-gray-700 hover:bg-white/10"
+						class="px-1.5 -py-1 rounded-xl bg-white/10 hover:bg-white/20"
 					>
 						<button
 							class="font-semibold bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 text-transparent bg-clip-text"
