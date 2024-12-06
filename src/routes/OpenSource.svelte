@@ -25,7 +25,7 @@
 	});
 </script>
 
-<div class="pt-4 pb-1 my-24" id="tech">
+<div class="pt-4 pb-1 my-24" id="open-source">
 	<div class="text-center">
 		<h2
 			id="open-source-title"

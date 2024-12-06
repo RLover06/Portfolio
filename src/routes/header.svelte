@@ -42,6 +42,11 @@
 				>
 			</li>
 			<li>
+				<a class="relative block px-3 py-2 transition hover:text-indigo-700" href="#open-source"
+					>Open Source</a
+				>
+			</li>
+			<li>
 				<a class="relative block px-3 py-2 transition hover:text-indigo-700" href="#products"
 					>Products</a
 				>
