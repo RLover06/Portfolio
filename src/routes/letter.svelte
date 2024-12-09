@@ -1,5 +1,23 @@
 <script lang="ts">
+	import {
+		Accordion,
+		AccordionContent,
+		AccordionItem,
+		AccordionTrigger,
+	} from '$lib/components/ui/accordion';
+	import Button from '$lib/components/Button.svelte';
+
 	let isHovered: boolean = false;
+
+	const goals = [
+		{ icon: '✅', text: 'Harry Potter y La Piedra Filosofal (77,325 words)' },
+		{ icon: '✅', text: 'Harry Potter y La Camara Secreta (84,799 words)' },
+		{ icon: '✅', text: 'Harry Potter y El Prisionero de Azkaban (106,821 words)' },
+		{ icon: '✅', text: 'Harry Potter y El Caliz de Fuego (190,858 words)' },
+		{ icon: '✅', text: 'Harry Potter y La Orden del Fenix (257,154 words)' },
+		{ icon: '🔲', text: 'Harry Potter y El Misterio del Principe (168,923 words)' },
+		{ icon: '🔲', text: 'Harry Potter y Las Reliquias de la Muerte (198,227 words)' },
+	];
 </script>
 
 <div
@@ -8,27 +26,27 @@
 	on:mouseout={() => (isHovered = false)}
 	on:focus={() => (isHovered = true)}
 	on:blur={() => (isHovered = false)}
-	class="mx-2 p-6 py-32 my-16 lg:px-8 text-left rounded-md bg-gradient-to-b from-neutral-100 to-neutral-300 object-cover hover:outline-dotted hover:outline-4 outline-indigo-400 outline-offset-4 glow-box"
+	class="glow-box mx-2 my-16 rounded-md bg-gradient-to-b from-neutral-100 to-neutral-300 object-cover p-6 py-32 text-left outline-offset-4 outline-indigo-400 hover:outline-dotted hover:outline-4 lg:px-8"
 >
 	<div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
 		<p class="text-base font-semibold leading-7 text-indigo-600">Bio</p>
-		<h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-700 sm:text-4xl space-grotesk">
+		<h1 class="space-grotesk mt-2 text-3xl font-bold tracking-tight text-gray-700 sm:text-4xl">
 			Hey there! <span class:wave={isHovered}>👋</span>
 		</h1>
-		<p class="mt-6 text-xl leading-8 font-semibold">
+		<p class="mt-6 text-xl font-semibold leading-8">
 			I am Hunter, from The Woodlands, Texas - just north of Houston. As a software developer, I
 			enjoy building applications of all kinds with people from all over the world. 👨🏻‍💻 🌍
 		</p>
 		<div class="mt-10 max-w-2xl text-lg font-medium">
 			<div>
 				<p>
-					I am a huge fan of <span class="font-bold text-black text-lg">TypeScript. </span>The
+					I am a huge fan of <span class="text-lg font-bold text-black">TypeScript. </span>The
 					tooling is fantastic, but what really stands out about TypeScript is how it encourages me
 					to be more mindful of the code I write.
 
 					<br /><br />
 
-					As far as frameworks go, <span class="font-bold text-black text-lg">🥇 Svelte</span> is
+					As far as frameworks go, <span class="text-lg font-bold text-black">🥇 Svelte</span> is
 					always my first choice. The developer experience is excellent and it’s a dream to use. I
 					am also a huge fan of
 					<span class="italic">Rich Harris</span>
@@ -40,20 +58,20 @@
 					<br /><br />
 				</p>
 				<p>
-					The runner-up goes to <span class="font-bold text-black text-lg">🥈 React/Next.js</span>.
+					The runner-up goes to <span class="text-lg font-bold text-black">🥈 React/Next.js</span>.
 					Its strong community and ecosystem are something I highly value.
 				</p>
 				<br />
 
-				I discovered <span class="font-bold text-black text-lg">Tailwind CSS</span> in 2019 and have
+				I discovered <span class="text-lg font-bold text-black">Tailwind CSS</span> in 2019 and have
 				been exclusively using it ever since. In recent projects, I have been using
-				<span class="font-bold text-black text-lg">Shadcn UI</span>, the Tailwind-based component
+				<span class="text-lg font-bold text-black">Shadcn UI</span>, the Tailwind-based component
 				library and it's now one of my favorites.
-				<hr class="border-t-2 border-slate-300 my-8" />
+				<hr class="my-8 border-t-2 border-slate-300" />
 
 				<ul class="mt-8 max-w-2xl space-y-2 text-gray-600">
-					<h2 class="mx-auto my-8 text-2xl font-bold tracking-tight text-gray-900 space-grotesk">
-						The <span class="underline decoration-wavy decoration-indigo-600 underline-offset-8"
+					<h2 class="space-grotesk mx-auto my-8 text-2xl font-bold tracking-tight text-gray-900">
+						The <span class="underline decoration-indigo-600 decoration-wavy underline-offset-8"
 							>perfect</span
 						> day looks like...
 					</h2>
@@ -113,9 +131,9 @@
 					</li>
 				</ul>
 
-				<hr class="border-t-2 border-slate-300 my-8" />
+				<hr class="my-8 border-t-2 border-slate-300" />
 
-				<h2 class="mt-8 text-2xl font-bold tracking-tight text-gray-900 space-grotesk">
+				<h2 class="space-grotesk mt-8 text-2xl font-bold tracking-tight text-gray-900">
 					Notes on Spanish
 				</h2>
 				<p class="mt-6">
@@ -131,12 +149,47 @@
 					a deep understanding. <br /><br /> I've integrated many positive aspects of the Latin
 					American lifestyle into my own life, with the most important lesson at the top of mind -
 					<strong
-						class="bg-gradient-to-b from-pink-600 via-red-600 to-fuchsia-700 text-transparent bg-clip-text font-black text-xl"
+						class="bg-gradient-to-b from-pink-600 via-red-600 to-fuchsia-700 bg-clip-text text-xl font-black text-transparent"
 						>Love life</strong
 					>
 					<span class="p-2 text-xl">❤️</span>
+
 					<br /><br />
 				</p>
+				<div class="flex justify-start">
+					<Accordion type="single" collapsible>
+						<AccordionItem value="goals" class="border-none">
+							<AccordionTrigger class="w-fit  [&>svg]:hidden">
+								<Button
+									text={'Spanish Goals'}
+									href={'#'}
+									targetBlank={false}
+									bgColor={'hsl(227, 66%, 55%)'}
+									bgDepthColor={'hsl(227, 66%, 25%)'}
+								/>
+							</AccordionTrigger>
+							<AccordionContent
+								class="mt-2 rounded-md border-[3px] border-dashed border-indigo-400 p-4"
+							>
+								<p class="my-4 text-lg font-medium text-black">
+									I was challenged to read 1 million words in Spanish to enhance my overall literacy
+									and significantly grow my vocabulary. The complete Harry Potter series totals 1.1
+									million words. <span class="font-bold text-indigo-500"
+										>Challenge Accepted. 😎</span
+									>
+								</p>
+								<ul class="space-y-2">
+									{#each goals as { icon, text }}
+										<li class="mt-2 flex items-center gap-2">
+											<span class="text-xl">{icon}</span>
+											<span class="text-lg font-semibold">{text}</span>
+										</li>
+									{/each}
+								</ul>
+							</AccordionContent>
+						</AccordionItem>
+					</Accordion>
+				</div>
 			</div>
 		</div>
 	</div>
