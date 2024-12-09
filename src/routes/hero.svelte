@@ -5,6 +5,8 @@
 	import BadgeIcon from '$lib/svgs/Badge.svelte';
 	import GraduationIcon from '$lib/svgs/Graduation.svelte';
 	import WordsFadeIn from '$lib/components/WordsFadePullUp.svelte';
+	import AnimatedGradientText from '$lib/components/AnimatedGradientText.svelte';
+	import { cn } from '$lib/utils';
 	// import AnimatedShinyText from '$lib/components/AnimatedShinyText.svelte';
 	let image = '/hunter-coco.jpg';
 	let primaryTitleIsReady = false;
@@ -20,55 +22,50 @@
 	});
 </script>
 
-<div class="mx-auto max-w-screen-xl px-2 sm:px-6 md:mt-16 h-screen">
+<div class="mx-auto h-screen max-w-screen-xl px-2 sm:px-6 md:mt-16">
 	<div class="text-center">
-		<div class="relative w-3/4 md:w-1/3 aspect-square mx-auto group">
-			<div 
+		<div class="group relative mx-auto aspect-square w-3/4 md:w-1/3">
+			<div
 				transition:blur={{ delay: 200, duration: 600 }}
-				class="absolute inset-0 image-wrapper group-hover:opacity-0 transition-opacity duration-300"
+				class="image-wrapper absolute inset-0 transition-opacity duration-300 group-hover:opacity-0"
 			>
-				<div class="absolute inset-3 rounded-full overflow-hidden">
-					<img
-						src="/headshot.jpeg"
-						alt=""
-						class="w-full h-full object-cover"
-					/>
+				<div class="absolute inset-3 overflow-hidden rounded-full">
+					<img src="/headshot.jpeg" alt="" class="h-full w-full object-cover" />
 				</div>
 			</div>
 
-			<div 
+			<div
 				transition:blur={{ delay: 200, duration: 600 }}
-				class="absolute inset-0 image-wrapper opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+				class="image-wrapper absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 			>
-				<div class="absolute inset-3 rounded-full overflow-hidden">
-					<img
-						src="/hunter-coco.jpg"
-						alt=""
-						class="w-full h-full object-cover"
-					/>
+				<div class="absolute inset-3 overflow-hidden rounded-full">
+					<img src="/hunter-coco.jpg" alt="" class="h-full w-full object-cover" />
 				</div>
 			</div>
 		</div>
 
 		{#if primaryTitleIsReady}
-			<WordsFadeIn words="Hunter Stevens" class="mt-6 text-4xl tracking-tight leading-10 font-extrabold text-gray-100 sm:text-5xl sm:leading-none md:text-6xl drop-shadow-lg glow space-grotesk" />
+			<WordsFadeIn
+				words="Hunter Stevens"
+				class="glow space-grotesk mt-6 text-4xl font-extrabold leading-10 tracking-tight text-gray-100 drop-shadow-lg sm:text-5xl sm:leading-none md:text-6xl"
+			/>
 		{/if}
 
 		{#if secondaryTitleIsReady}
-			<WordsFadeIn 
-				words="Software Developer" 
-				class="mt-2 text-4xl tracking-tight leading-10 font-extrabold text-gray-100 sm:text-5xl sm:leading-none md:text-6xl drop-shadow-lg glow space-grotesk"
+			<WordsFadeIn
+				words="Software Developer"
+				class="glow space-grotesk mt-2 text-4xl font-extrabold leading-10 tracking-tight text-gray-100 drop-shadow-lg sm:text-5xl sm:leading-none md:text-6xl"
 			/>
 		{/if}
 
 		<div
-			class="mt-3 max-w-md mx-auto text-base text-neutral-600 sm:text-xl md:mt-5 md:text-xl md:max-w-3xl"
+			class="mx-auto mt-3 max-w-md text-base text-neutral-600 sm:text-xl md:mt-5 md:max-w-3xl md:text-xl"
 		>
 			<div transition:blur={{ delay: 1500, duration: 500 }} class="flex justify-center gap-2">
 				<GraduationIcon />
 				<a href="https://www.uh.edu/" target="_blank">
 					<span
-						class="font-semibold bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 text-transparent bg-clip-text"
+						class="bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 bg-clip-text font-semibold text-transparent"
 					>
 						University of Houston <span class="hidden md:inline">(BBA in Marketing)</span>
 					</span>
@@ -80,27 +77,44 @@
 				<BadgeIcon />
 				<a href="https://launchschool.com/courses" target="_blank">
 					<span
-						class="font-semibold bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 text-transparent bg-clip-text"
+						class="bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 bg-clip-text font-semibold text-transparent"
 					>
 						Launch School <span class="hidden md:inline">(Core Curriculum Grad)</span>
 					</span>
 				</a>
 			</div>
 
-			<div transition:blur={{ delay: 2500, duration: 500 }} class="flex justify-center gap-2 items-center">
-				<VideoIcon />
-				<div class="flex gap-2 items-center">
-					<a
-						href="https://www.youtube.com/@HunterScript/featured"
-						class="px-1.5 -py-1 rounded-xl bg-white/10 hover:bg-white/20"
+			<div
+				transition:blur={{ delay: 2500, duration: 500 }}
+				class="flex items-center justify-center gap-2"
+			>
+				<a href="https://www.youtube.com/@HunterScript/featured" target="_blank" class="my-3">
+					<AnimatedGradientText
+						class="flex items-center gap-2 rounded-xl bg-white/10 px-1.5 text-xl"
 					>
-						<button
-							class="font-semibold bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 text-transparent bg-clip-text"
+						🍿
+						<span
+							class={cn(
+								`animate-gradient inline bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-xl text-transparent`
+							)}
 						>
 							@HunterScript
-						</button>
-					</a>
-				</div>
+						</span>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5"
+							><path d="m9 18 6-6-6-6" /></svg
+						>
+					</AnimatedGradientText>
+				</a>
 			</div>
 		</div>
 	</div>
@@ -126,8 +140,8 @@
 		animation: spin 100s linear infinite;
 	}
 
-.image-wrapper img {
-	position: relative;
-	z-index: 1;
-}
+	.image-wrapper img {
+		position: relative;
+		z-index: 1;
+	}
 </style>
