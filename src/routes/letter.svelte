@@ -180,9 +180,9 @@
 								</p>
 								<ul class="space-y-2">
 									{#each goals as { icon, text }}
-										<li class="mt-2 flex items-center gap-2">
-											<span class="text-xl">{icon}</span>
-											<span class="text-lg font-semibold">{text}</span>
+										<li class="mt-2 flex items-center gap-2 text-lg">
+											<span>{icon}</span>
+											<span>{text}</span>
 										</li>
 									{/each}
 								</ul>
