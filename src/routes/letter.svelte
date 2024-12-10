@@ -159,7 +159,7 @@
 				<div class="flex justify-start">
 					<Accordion type="single" collapsible>
 						<AccordionItem value="goals" class="border-none">
-							<AccordionTrigger class="w-fit  [&>svg]:hidden">
+							<AccordionTrigger class="w-fit  [&>svg]:hidden ">
 								<Button
 									text={'Spanish Goals'}
 									disableLink={true}

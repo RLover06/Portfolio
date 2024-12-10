@@ -7,17 +7,19 @@
 	export let disableLink: boolean = false;
 </script>
 
-{#if !disableLink}
-	<a {href} target={targetBlank ? '_blank' : ''} class="no-underline">
-		<button class="pushable font-bold" style="background: {bgDepthColor}">
-			<span class="front" style="background: {bgColor};">{text}</span>
-		</button>
-	</a>
-{:else}
-	<button class="pushable font-bold" style="background: {bgDepthColor}; text-decoration: none;">
+<a
+	{href}
+	target={targetBlank ? '_blank' : ''}
+	on:click={(e) => {
+		if (disableLink) {
+			e.preventDefault();
+		}
+	}}
+>
+	<button class="pushable font-bold" style="background: {bgDepthColor}">
 		<span class="front" style="background: {bgColor};">{text}</span>
 	</button>
-{/if}
+</a>
 
 <style>
 	.pushable {
@@ -42,14 +44,8 @@
 		transform: translateY(-2px);
 	}
 
-	a {
-		text-decoration: none;
-	}
-
-	button {
-		text-decoration: none;
-	}
-
+	a:hover,
+	button,
 	button:hover {
 		text-decoration: none;
 	}
