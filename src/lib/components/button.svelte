@@ -4,11 +4,20 @@
 	export let targetBlank: boolean = false;
 	export let bgColor: string = '';
 	export let bgDepthColor: string = '';
+	export let disableLink: boolean = false;
 </script>
 
-<a {href} target={targetBlank ? '_blank' : ''}>
-	<button class="pushable font-bold" style="background: {bgDepthColor}"> <span class="front" style="background: {bgColor};">{text}</span></button>
-</a>
+{#if !disableLink}
+	<a {href} target={targetBlank ? '_blank' : ''} class="no-underline">
+		<button class="pushable font-bold" style="background: {bgDepthColor}">
+			<span class="front" style="background: {bgColor};">{text}</span>
+		</button>
+	</a>
+{:else}
+	<button class="pushable font-bold" style="background: {bgDepthColor}; text-decoration: none;">
+		<span class="front" style="background: {bgColor};">{text}</span>
+	</button>
+{/if}
 
 <style>
 	.pushable {
@@ -31,5 +40,17 @@
 
 	.pushable:active .front {
 		transform: translateY(-2px);
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	button {
+		text-decoration: none;
+	}
+
+	button:hover {
+		text-decoration: none;
 	}
 </style>

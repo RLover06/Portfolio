@@ -53,7 +53,7 @@
 
 		{#if secondaryTitleIsReady}
 			<WordsFadeIn
-				words="Software Developer"
+				words="Software Engineer"
 				class="glow space-grotesk mt-2 text-4xl font-extrabold leading-10 tracking-tight text-gray-100 drop-shadow-lg sm:text-5xl sm:leading-none md:text-6xl"
 			/>
 		{/if}
@@ -93,6 +93,7 @@
 						class="flex items-center gap-2 rounded-xl bg-white/10 px-1.5 text-xl"
 					>
 						🍿
+						<!-- from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] -->
 						<span
 							class={cn(
 								`animate-gradient inline bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-xl text-transparent`

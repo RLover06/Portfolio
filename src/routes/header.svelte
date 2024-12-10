@@ -5,36 +5,36 @@
 	let mobileOpen = false;
 </script>
 
-<nav class="m-4 relative flex items-center justify-center">
+<nav class="relative m-4 flex items-center justify-center">
 	<div
 		transition:blur={{ duration: 2000 }}
-		class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0"
+		class="flex flex-1 items-center md:absolute md:inset-y-0 md:left-0"
 	>
-		<div class="flex items-center justify-between w-full md:w-auto">
+		<div class="flex w-full items-center justify-between md:w-auto">
 			<div class="-mr-2 flex items-center md:hidden">
 				<button
 					on:click={() => (mobileOpen = !mobileOpen)}
 					type="button"
-					class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-200 focus:outline-none focus:bg-gray-200 focus:text-gray-500 transition duration-150 ease-in-out"
+					class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 transition duration-150 ease-in-out hover:bg-gray-200 hover:text-gray-500 focus:bg-gray-200 focus:text-gray-500 focus:outline-none"
 				/>
 			</div>
 		</div>
 
 		<ul
-			class="flex rounded-full bg-white/90 px-2 text-sm text-indigo-500 font-bold shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10"
+			class="flex rounded-full bg-white/90 px-2 text-sm font-bold text-indigo-500 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10"
 		>
 			<li class="relative flex items-center px-1 py-1 transition hover:text-indigo-700">
-				Native: <span class="text-xl mx-1">🇺🇸</span>
+				Native: <span class="mx-1 text-xl">🇺🇸</span>
 			</li>
 			<li class="relative flex items-center px-1 py-1 transition hover:text-indigo-700">
-				C1: <span class="text-xl mx-1">🇪🇸</span>
+				C1: <span class="mx-1 text-xl">🇪🇸</span>
 			</li>
 		</ul>
 	</div>
 
 	<nav class="pointer-events-auto hidden md:block">
 		<ul
-			class="flex rounded-full bg-white/90 px-3 text-sm text-indigo-500 font-bold shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10"
+			class="flex rounded-full bg-white/90 px-3 text-sm font-bold text-indigo-500 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10"
 		>
 			<li>
 				<a class="relative block px-3 py-2 transition hover:text-indigo-700" href="#tech"
@@ -66,7 +66,7 @@
 
 	<div
 		transition:blur={{ duration: 2000 }}
-		class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0"
+		class="hidden md:absolute md:inset-y-0 md:right-0 md:flex md:items-center md:justify-end"
 	>
 		<a
 			href="https://github.com/diamondalltheway"
@@ -74,7 +74,7 @@
 			class="ml-6 text-gray-600 hover:text-gray-700"
 		>
 			<svg
-				class="h-8 w-8 mx-6 text-indigo-500 bg-indigo-200 rounded-full"
+				class="mx-6 h-8 w-8 rounded-full bg-indigo-200 text-indigo-500"
 				fill="currentColor"
 				viewBox="0 0 24 24"
 			>

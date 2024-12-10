@@ -162,8 +162,7 @@
 							<AccordionTrigger class="w-fit  [&>svg]:hidden">
 								<Button
 									text={'Spanish Goals'}
-									href={'#'}
-									targetBlank={false}
+									disableLink={true}
 									bgColor={'hsl(227, 66%, 55%)'}
 									bgDepthColor={'hsl(227, 66%, 25%)'}
 								/>
