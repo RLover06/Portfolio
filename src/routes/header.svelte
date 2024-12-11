@@ -3,6 +3,14 @@
 	import Button from '$lib/components/Button.svelte';
 
 	let mobileOpen = false;
+
+	const navItems = [
+		{ href: '#tech', text: 'Technologies' },
+		{ href: '#open-source', text: 'Open Source' },
+		{ href: '#products', text: 'Products' },
+		{ href: '#contact', text: 'Contact' },
+		{ href: '#favorites', text: 'Favorites' },
+	];
 </script>
 
 <nav class="relative m-4 flex items-center justify-center">
@@ -36,31 +44,16 @@
 		<ul
 			class="flex rounded-full bg-white/90 px-3 text-sm font-bold text-indigo-500 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10"
 		>
-			<li>
-				<a class="relative block px-3 py-2 transition hover:text-indigo-700" href="#tech"
-					>Technologies</a
-				>
-			</li>
-			<li>
-				<a class="relative block px-3 py-2 transition hover:text-indigo-700" href="#open-source"
-					>Open Source</a
-				>
-			</li>
-			<li>
-				<a class="relative block px-3 py-2 transition hover:text-indigo-700" href="#products"
-					>Products</a
-				>
-			</li>
-			<li>
-				<a class="relative block px-3 py-2 transition hover:text-indigo-700" href="#contact"
-					>Contact</a
-				>
-			</li>
-			<li>
-				<a class="relative block px-3 py-2 transition hover:text-indigo-700" href="#favorites"
-					>Favorites</a
-				>
-			</li>
+			{#each navItems as { href, text }}
+				<li>
+					<a
+						class="hover:motion-preset-expand hover:motion-preset-confetti relative block px-3 py-2 transition hover:text-indigo-700"
+						{href}
+					>
+						{text}
+					</a>
+				</li>
+			{/each}
 		</ul>
 	</nav>
 

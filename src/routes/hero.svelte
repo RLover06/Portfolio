@@ -93,7 +93,6 @@
 						class="flex items-center gap-2 rounded-xl bg-white/10 px-1.5 text-xl"
 					>
 						🍿
-						<!-- from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] -->
 						<span
 							class={cn(
 								`animate-gradient inline bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-xl text-transparent`
