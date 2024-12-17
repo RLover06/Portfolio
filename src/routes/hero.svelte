@@ -7,7 +7,6 @@
 	import WordsFadeIn from '$lib/components/WordsFadePullUp.svelte';
 	import AnimatedGradientText from '$lib/components/AnimatedGradientText.svelte';
 	import { cn } from '$lib/utils';
-	// import AnimatedShinyText from '$lib/components/AnimatedShinyText.svelte';
 	let image = '/hunter-coco.jpg';
 	let primaryTitleIsReady = false;
 	let secondaryTitleIsReady = false;
