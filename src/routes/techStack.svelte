@@ -82,10 +82,20 @@
 			imgURL: 'prisma.png',
 		},
 		{
+			name: 'Drizzle',
+			linkURL: 'https://www.drizzle.team/',
+			imgURL: 'drizzle.png',
+		},
+		{
 			name: 'Postgres',
 			linkURL: 'https://www.postgresql.org/',
 			imgURL:
 				'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg',
+		},
+		{
+			name: 'MySQL',
+			linkURL: 'https://www.mysql.com/',
+			imgURL: 'mysql.png',
 		},
 		{
 			name: 'HTML',
@@ -117,6 +127,11 @@
 			name: 'Vitest',
 			linkURL: 'https://vitest.dev/',
 			imgURL: 'vite-test.png',
+		},
+		{
+			name: 'Playwright',
+			linkURL: 'https://playwright.dev/',
+			imgURL: 'playwright.webp',
 		},
 		{
 			name: 'Jest',
