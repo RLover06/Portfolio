@@ -47,7 +47,7 @@
 					<br /><br />
 
 					As far as frameworks go, <span class="text-lg font-bold text-black">🥇 Svelte</span> is
-					always my first choice. The developer experience is excellent and it’s a dream to use. I
+					always my first choice. The developer experience is excellent and it's a dream to use. I
 					am also a huge fan of
 					<span class="italic">Rich Harris</span>
 					and everything he is doing to push the framework forward. Because of that, I created a Sveltekit
@@ -67,6 +67,39 @@
 				been exclusively using it ever since. In recent projects, I have been using
 				<span class="text-lg font-bold text-black">Shadcn UI</span>, the Tailwind-based component
 				library and it's now one of my favorites.
+
+				<div class="flex justify-start">
+					<Accordion type="single" collapsible>
+						<AccordionItem value="goals" class="border-none">
+							<AccordionTrigger class="w-fit  [&>svg]:hidden ">
+								<Button
+									text={'More'}
+									disableLink={true}
+									bgColor={'hsl(227, 66%, 55%)'}
+									bgDepthColor={'hsl(227, 66%, 25%)'}
+								/>
+							</AccordionTrigger>
+							<AccordionContent
+								class="mt-2 rounded-md border-[3px] border-dashed border-indigo-400 p-4"
+							>
+								<p class="my-4 text-lg font-medium text-black">
+									Although TypeScript is my language of choice, I've recently been interested in Go.
+									<br /><br />
+									In my spare time, I am either working on a project or watching videos about software
+									development. Here are some of my favorite channels:
+								</p>
+								<ul class="text-lg font-medium">
+									<li>🔵 ThePrimeagen</li>
+									<li>🔵 Theo Browne</li>
+									<li>🔵 Matt Pocock</li>
+									<li>🔵 Fireship</li>
+									<li>🔵 Rich Harris (interviews)</li>
+									<li>🔵 Many more...</li>
+								</ul>
+							</AccordionContent>
+						</AccordionItem>
+					</Accordion>
+				</div>
 				<hr class="my-8 border-t-2 border-slate-300" />
 
 				<ul class="mt-8 max-w-2xl space-y-2 text-gray-600">
