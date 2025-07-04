@@ -160,11 +160,6 @@
 				'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg',
 		},
 		{
-			name: 'Heroku',
-			linkURL: 'https://heroku.com/',
-			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg',
-		},
-		{
 			name: 'Mapbox',
 			linkURL: 'https://www.mapbox.com/',
 			imgURL: 'mapbox.png',
