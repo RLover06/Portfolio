@@ -57,15 +57,15 @@
 <div class="my-2">
 	<div
 		bind:this={tooltip}
-		class="fixed py- text-indigo-300 text-lg font-semibold glow space-grotesk"
+		class="py- glow space-grotesk fixed text-lg font-semibold text-indigo-300"
 		style="display: none;"
 	>
 		{name}
 	</div>
 	<a bind:this={referenceElement} href={linkURL} target="_blank">
 		<img
-			class="h-14 p-2 col-span-1 mx-auto flex justify-center object-cover bg-gradient-to-b from-slate-500 to bg-slate-700 rounded-lg hover:motion-preset-shake border border-1 border-slate-500 shadow-md shadow-neutral-700
-			{name === 'Docker' ? 'p-0' : 'p-2'}"
+			class="to hover:motion-preset-shake border-1 col-span-1 mx-auto flex h-14 justify-center rounded-lg border border-slate-500 bg-slate-700 bg-gradient-to-b from-slate-500 object-cover p-2 shadow-md shadow-neutral-700
+			{name === 'Docker' || name === 'Zod' ? 'p-0' : 'p-2'}"
 			src={imgURL}
 			alt=""
 		/>
