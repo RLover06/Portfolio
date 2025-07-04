@@ -27,6 +27,11 @@
 			imgURL: 'bun.svg',
 		},
 		{
+			name: 'Fastify',
+			linkURL: 'https://www.fastify.io/',
+			imgURL: 'fastify.png',
+		},
+		{
 			name: 'Svelte',
 			linkURL: 'https://svelte.dev/',
 			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg',
@@ -139,9 +144,19 @@
 			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
 		},
 		{
+			name: 'Zod',
+			linkURL: 'https://zod.dev/',
+			imgURL: 'zod.webp',
+		},
+		{
 			name: 'Docker',
 			linkURL: 'https://docker.com/',
 			imgURL: 'docker.png',
+		},
+		{
+			name: 'ValKey',
+			linkURL: 'https://valkey.io/',
+			imgURL: 'valkey.png',
 		},
 		{
 			name: 'Vercel',
@@ -158,6 +173,11 @@
 			linkURL: 'https://cloud.google.com/',
 			imgURL:
 				'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg',
+		},
+		{
+			name: 'Heroku',
+			linkURL: 'https://heroku.com/',
+			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg',
 		},
 		{
 			name: 'Mapbox',
@@ -199,6 +219,11 @@
 			name: 'Lucia Auth',
 			linkURL: 'https://lucia-auth.com/',
 			imgURL: 'lucia.png',
+		},
+		{
+			name: 'Driver.js',
+			linkURL: 'https://driverjs.com/',
+			imgURL: 'driver.png',
 		},
 	];
 
