@@ -18,6 +18,7 @@
 			linkURL: 'https://svelte.dev/',
 			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg',
 		},
+		{ name: 'Node.js', linkURL: 'https://nodejs.org/en', imgURL: 'node.png' },
 		{ name: 'Supabase', linkURL: 'https://supabase.com', imgURL: 'supabase.png' },
 		{
 			name: 'PostgreSQL',
@@ -51,8 +52,9 @@
 		Featured Product
 	</h2>
 
-	<p class="mt-2 text-center text-lg leading-8 text-gray-400">
-		Here is a featured product that I have worked on.
+	<p class="mx-auto mt-2 max-w-xl text-center text-lg leading-8 text-gray-400">
+		DataForest.io is the result of years spent solving Colombia’s core marketing challenge: the lack
+		of accessible address data.
 	</p>
 </div>
 
