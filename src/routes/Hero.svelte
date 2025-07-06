@@ -119,13 +119,6 @@
 	</div>
 </div>
 
-<!-- Certifications -->
-<!-- <div transition:blur={{ duration: 5500 }} class="flex w-1/2 mx-auto justify-between my-10 px-24">
-  <img class="size-32 hover:motion-preset-shake" src="logo-aws-cp.png" alt="">
-  <img class="size-32 hover:motion-preset-shake" src="logo-aws-sa.png" alt="">
-  <img class="size-32 hover:motion-preset-shake" src="logo-aws-d.png" alt="">
-</div> -->
-
 <style>
 	.image-wrapper::before {
 		content: '';

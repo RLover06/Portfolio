@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Product from '$lib/components/Product.svelte';
+	import FeaturedProduct from './FeaturedProduct.svelte';
 
 	const campaign_hero_icons = [
 		{
@@ -182,65 +183,6 @@
 		{ name: 'Vercel', linkURL: 'https://vercel.com/', imgURL: 'vercel.png' },
 	];
 
-	const merlin_icons = [
-		{
-			name: 'TypeScript',
-			linkURL: 'https://www.typescriptlang.org/',
-			imgURL:
-				'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
-		},
-		{
-			name: 'Svelte',
-			linkURL: 'https://svelte.dev/',
-			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg',
-		},
-		{
-			name: 'Astro',
-			linkURL: 'https://astro.build',
-			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg',
-		},
-		{ name: 'Vite.js', linkURL: 'https://vitejs.dev/', imgURL: 'vite.png' },
-		{
-			name: 'Docker',
-			linkURL: 'https://www.docker.com/',
-			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
-		},
-		{ name: 'Shadcn UI', linkURL: 'https://ui.shadcn.com/', imgURL: '/shadcn-ui.png' },
-		{
-			name: 'Tailwind CSS',
-			linkURL: 'https://tailwindcss.com/',
-			imgURL:
-				'https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/tailwindcss/tailwindcss-original.svg',
-		},
-	];
-
-	const genie_icons = [
-		{
-			name: 'TypeScript',
-			linkURL: 'https://www.typescriptlang.org/',
-			imgURL:
-				'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
-		},
-		{
-			name: 'Svelte',
-			linkURL: 'https://svelte.dev/',
-			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg',
-		},
-		{ name: 'Vite.js', linkURL: 'https://vitejs.dev/', imgURL: 'vite.png' },
-		{
-			name: 'Docker',
-			linkURL: 'https://www.docker.com/',
-			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
-		},
-		{ name: 'Shadcn UI', linkURL: 'https://ui.shadcn.com/', imgURL: '/shadcn-ui.png' },
-		{
-			name: 'Tailwind CSS',
-			linkURL: 'https://tailwindcss.com/',
-			imgURL:
-				'https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/tailwindcss/tailwindcss-original.svg',
-		},
-	];
-
 	const vertical_spanish_icons = [
 		{
 			name: 'TypeScript',
@@ -279,11 +221,13 @@
 	];
 </script>
 
+<FeaturedProduct />
+
 <div id="products" class="py-12 sm:py-16">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl text-center">
 			<h2
-				class="text-3xl font-bold tracking-tight sm:text-4xl bg-gradient-to-r text-indigo-300 glow space-grotesk"
+				class="glow space-grotesk bg-gradient-to-r text-3xl font-bold tracking-tight text-indigo-300 sm:text-4xl"
 			>
 				Public Products
 			</h2>
@@ -296,6 +240,14 @@
 		<div
 			class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 		>
+			<Product
+				title="VerticalSpanish.com"
+				description="Vertical Spanish allows Spanish students to study spanish verbs in a world that inspires. Conjugators are notorious for being overpopulated with ads, but not here!"
+				linkURL="https://verticalspanish.com"
+				imgURL="landscape.png"
+				icons={vertical_spanish_icons}
+			/>
+
 			<Product
 				title="CampaginHero.io"
 				description="CampaignHero.io is a search/discovery platform for 14,200 email designs. It leverages vector databases to enable semantic and image-based search."
@@ -310,6 +262,7 @@
 				linkURL="https://airmailer.io"
 				imgURL="airmailer_ss.png"
 				icons={air_mailer_icons}
+				legacy={true}
 			/>
 
 			<Product
@@ -318,6 +271,7 @@
 				linkURL="https://upscout.io"
 				imgURL="upscout_ss.png"
 				icons={up_scout_icons}
+				legacy={true}
 			/>
 
 			<Product
@@ -326,14 +280,7 @@
 				linkURL="https://dataforest.io"
 				imgURL="dataforest_ss.png"
 				icons={data_forest_icons}
-			/>
-
-			<Product
-				title="VerticalSpanish.com"
-				description="Vertical Spanish allows Spanish students to study spanish verbs in a world that inspires. Conjugators are notorious for being overpopulated with ads, but not here!"
-				linkURL="https://verticalspanish.com"
-				imgURL="landscape.png"
-				icons={vertical_spanish_icons}
+				legacy={true}
 			/>
 		</div>
 	</div>
