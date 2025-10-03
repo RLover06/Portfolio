@@ -34,7 +34,7 @@
 			Hey there! <span class:wave={isHovered}>👋</span>
 		</h1>
 		<p class="mt-6 text-xl font-semibold leading-8">
-			I am Hunter, from The Woodlands, Texas - just north of Houston. As a software developer, I
+			I am Over Regino, from The Woodlands, Texas - just north of Houston. As a software developer, I
 			enjoy building applications of all kinds with people from all over the world. 👨🏻‍💻 🌍
 		</p>
 		<div class="mt-10 max-w-2xl text-lg font-medium">

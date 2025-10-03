@@ -45,14 +45,14 @@
 
 		{#if primaryTitleIsReady}
 			<WordsFadeIn
-				words="Hunter Stevens"
+				words="Over Regino"
 				class="glow space-grotesk mt-6 text-4xl font-extrabold leading-10 tracking-tight text-gray-100 drop-shadow-lg sm:text-5xl sm:leading-none md:text-6xl"
 			/>
 		{/if}
 
 		{#if secondaryTitleIsReady}
 			<WordsFadeIn
-				words="Software Engineer"
+				words="Software Developer and Phisicist"
 				class="glow space-grotesk mt-2 text-4xl font-extrabold leading-10 tracking-tight text-gray-100 drop-shadow-lg sm:text-5xl sm:leading-none md:text-6xl"
 			/>
 		{/if}
@@ -62,11 +62,11 @@
 		>
 			<div transition:blur={{ delay: 1500, duration: 500 }} class="flex justify-center gap-2">
 				<GraduationIcon />
-				<a href="https://www.uh.edu/" target="_blank">
+				<a href="https://www.unicordoba.edu.co/" target="_blank">
 					<span
 						class="bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 bg-clip-text font-semibold text-transparent"
 					>
-						University of Houston <span class="hidden md:inline">(BBA in Marketing)</span>
+					University of Cordoba  <span class="hidden md:inline">(Phisicist)</span>
 					</span>
 				</a>
 				<br />
@@ -74,11 +74,11 @@
 
 			<div transition:blur={{ delay: 2000, duration: 500 }} class="flex justify-center gap-2">
 				<BadgeIcon />
-				<a href="https://launchschool.com/courses" target="_blank">
+				<a href="https://www.unicordoba.edu.co/" target="_blank">
 					<span
 						class="bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 bg-clip-text font-semibold text-transparent"
 					>
-						Launch School <span class="hidden md:inline">(Core Curriculum Grad)</span>
+					University of Cordoba <span class="hidden md:inline">(Core Curriculum Grad)</span>
 					</span>
 				</a>
 			</div>
@@ -87,7 +87,7 @@
 				transition:blur={{ delay: 2500, duration: 500 }}
 				class="flex items-center justify-center gap-2"
 			>
-				<a href="https://www.youtube.com/@HunterScript/featured" target="_blank" class="my-3">
+				<a href="https://www.linkedin.com/in/over-regino-llorente-730b61377/" target="_blank" class="my-3">
 					<AnimatedGradientText
 						class="flex items-center gap-2 rounded-xl bg-white/10 px-1.5 text-xl"
 					>
@@ -97,7 +97,7 @@
 								`animate-gradient inline bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-xl text-transparent`
 							)}
 						>
-							@HunterScript
+							@OverRegino
 						</span>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"

@@ -3,25 +3,25 @@
 	import { onMount } from 'svelte';
 	const testimonials = [
 		{
-			text: 'What truly sets Hunter apart is his ability to communicate complex ideas clearly. He is an amazing presenter who ensured all stakeholders understood the progress and technical details. His proactive updates and problem-solving attitude made the collaboration smooth and productive. I highly recommend Hunter for any Svelte or React.js projects. He is a reliable and talented professional who delivers great results. Would definitely work with him again!',
+			text: 'What truly sets Over Regino apart is his ability to communicate complex ideas clearly. He is an amazing presenter who ensured all stakeholders understood the progress and technical details. His proactive updates and problem-solving attitude made the collaboration smooth and productive. I highly recommend Over Regino for any Svelte or React.js projects. He is a reliable and talented professional who delivers great results. Would definitely work with him again!',
 			author: 'David Montes',
 			company: 'AfterLib',
 			image: 'david-montes.jpg',
 		},
 		{
-			text: "Hunter has been great to work with on the ChatNode web app. He's reliable, quick to solve problems, and always brings a lot of thought to the project. He has great communication skills too! It's been awesome to have him on the team, and he's helped bring many features to ChatNode.",
+			text: "Over Regino has been great to work with on the ChatNode web app. He's reliable, quick to solve problems, and always brings a lot of thought to the project. He has great communication skills too! It's been awesome to have him on the team, and he's helped bring many features to ChatNode.",
 			author: 'Sacha Dumay',
 			company: 'Chatnode.ai',
 			image: 'sacha.jpg',
 		},
 		{
-			text: 'We had a pleasure working together and successfully completed the project. Hunter is skilled professional who adhered to our requirements and delivered great results.',
+			text: 'We had a pleasure working together and successfully completed the project. Over Regino is skilled professional who adhered to our requirements and delivered great results.',
 			author: 'Michael Makedonsky',
 			company: 'Agatha Global Tech',
 			image: '/michael.png',
 		},
 		{
-			text: "Hunter was an absolute pleasure working with. He has very strong work ethics, very responsive and communicative. He's done a great job and fit in really well with the team.",
+			text: "Over Regino was an absolute pleasure working with. He has very strong work ethics, very responsive and communicative. He's done a great job and fit in really well with the team.",
 			author: 'Josh Yang',
 			company: 'MLytica',
 			image: 'josh.jpg',
