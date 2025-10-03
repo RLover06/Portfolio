@@ -7,7 +7,7 @@
 	import WordsFadeIn from '$lib/components/WordsFadePullUp.svelte';
 	import AnimatedGradientText from '$lib/components/AnimatedGradientText.svelte';
 	import { cn } from '$lib/utils';
-	let image = '/hunter-coco.jpg';
+	let image = '/Phisicist.jpg';
 	let primaryTitleIsReady = false;
 	let secondaryTitleIsReady = false;
 
@@ -29,7 +29,7 @@
 				class="image-wrapper absolute inset-0 transition-opacity duration-300 group-hover:opacity-0"
 			>
 				<div class="absolute inset-3 overflow-hidden rounded-full">
-					<img src="/headshot.jpeg" alt="" class="h-full w-full object-cover" />
+					<img src="/Over.jpg" alt="" class="h-full w-full object-cover" />
 				</div>
 			</div>
 
@@ -38,7 +38,7 @@
 				class="image-wrapper absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
 			>
 				<div class="absolute inset-3 overflow-hidden rounded-full">
-					<img src="/hunter-coco.jpg" alt="" class="h-full w-full object-cover" />
+					<img src="/Phisicist.jpg" alt="" class="h-full w-full object-cover" />
 				</div>
 			</div>
 		</div>

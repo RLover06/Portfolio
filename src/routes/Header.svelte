@@ -32,10 +32,10 @@
 			class="flex rounded-full bg-white/90 px-2 text-sm font-bold text-indigo-500 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10"
 		>
 			<li class="relative flex items-center px-1 py-1 transition hover:text-indigo-700">
-				Native: <span class="mx-1 text-xl">🇺🇸</span>
+				Native: <span class="mx-1 text-xl">ES</span>
 			</li>
 			<li class="relative flex items-center px-1 py-1 transition hover:text-indigo-700">
-				C1: <span class="mx-1 text-xl">🇪🇸</span>
+				B2: <span class="mx-1 text-xl">us</span>
 			</li>
 		</ul>
 	</div>
@@ -62,7 +62,7 @@
 		class="hidden md:absolute md:inset-y-0 md:right-0 md:flex md:items-center md:justify-end"
 	>
 		<a
-			href="https://github.com/diamondalltheway"
+			href="https://github.com/RLover06/Portfolio"
 			target="_blank"
 			class="ml-6 text-gray-600 hover:text-gray-700"
 		>

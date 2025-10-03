@@ -18,7 +18,7 @@
 	</div>
 	<div class="mt-8 md:order-1 md:mt-0">
 		<p class="text-center text-base leading-6 text-gray-600">
-			&copy; {new Date().getFullYear()} Over Regino Stevens All rights reserved.
+			&copy; {new Date().getFullYear()} Over Regino All rights reserved.
 		</p>
 	</div>
 </div>

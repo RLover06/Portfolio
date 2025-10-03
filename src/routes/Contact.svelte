@@ -35,7 +35,7 @@
 							Feel free to reach out!
 						</h3>
 						<p class="mt-6 text-center text-base font-bold leading-6 text-gray-600">
-							hunter@toplobster.io <span class=" mx-2 font-semibold" />
+							overregino222@gmail.com <span class=" mx-2 font-semibold" />
 						</p>
 						<div class="mt-8">
 							<div class="flex items-center">
