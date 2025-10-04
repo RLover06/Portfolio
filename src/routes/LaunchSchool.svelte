@@ -34,22 +34,22 @@
 		class="bg-white mt-8 lg:mx-48 px-6 py-8 rounded-md bg-gradient-to-b from-neutral-100 to-neutral-300 hover:outline-dotted hover:outline-4 outline-red-400 outline-offset-4 glow-box-red"
 	>
 		<h2 class="mt-4 text-2xl font-bold tracking-tight text-gray-900 space-grotesk">
-			Notes on Launch School
+			Notes on University of Cordoba
 		</h2>
 		<p class="my-6 text-gray-600">
-			Launch School was one of the hardest things I have ever done. It was also one of the most
-			rewarding. During my time at Launch School, I learned much more than syntax and semantics, I
-			learned attention to detail and acquired a procedural mindset.
+			My time at the University of Córdoba has been one of the greatest challenges I've ever faced,
+			 but also one of the most enriching experiences. Beyond learning theory 
+			and technical concepts, I developed a keen attention to detail and methodical thinking.
 			<br /><br />
-			The core curriculum begins with first principles, which is by no means an attractive way to start,
-			but it highlights the seriousness of the program. A complete understanding of the fundamentals
-			is required before touching higher-level abstractions, and this is what makes the core curriculum
-			so special.
+			Academic training begins with fundamental principles, which isn't always the easiest way to begin, 
+			but it reflects the seriousness of the program. A thorough understanding of the foundations is a 
+			requirement before moving on to more complex levels, and that's precisely 
+			what makes the university training experience so valuable.
 			<span class="text-xl" class:hithere={isHoveredLS}>🎉</span>
 		</p>
 		<Button
 			text={'View Curriculum'}
-			href={'https://launchschool.com/courses'}
+			href={'https://www.unicordoba.edu.co/'}
 			targetBlank={true}
 			bgColor={'hsl(349, 98%, 58%)'}
 			bgDepthColor={'hsl(340, 97%, 38%)'}

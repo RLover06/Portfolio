@@ -52,7 +52,7 @@
 
 		{#if secondaryTitleIsReady}
 			<WordsFadeIn
-				words="Software Developer and Phisicist"
+				words="Software Developer and Physicist"
 				class="glow space-grotesk mt-2 text-4xl font-extrabold leading-10 tracking-tight text-gray-100 drop-shadow-lg sm:text-5xl sm:leading-none md:text-6xl"
 			/>
 		{/if}
@@ -66,7 +66,7 @@
 					<span
 						class="bg-gradient-to-b from-slate-100 via-neutral-300 to-slate-600 bg-clip-text font-semibold text-transparent"
 					>
-					University of Cordoba  <span class="hidden md:inline">(Phisicist)</span>
+					University of Cordoba  <span class="hidden md:inline">(Physicist)</span>
 					</span>
 				</a>
 				<br />
