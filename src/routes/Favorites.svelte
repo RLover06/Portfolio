@@ -3,11 +3,11 @@
 	import Favorite from '$lib/components/Favorite.svelte';
 
 	const books = [
-		{ icon1: '📖', col_1: 'The Little Prince', icon2: '✍️', col_2: 'Antoine de Saint-Exupéry' },
-		{ icon1: '📖', col_1: '12 Rules for Life', icon2: '✍️', col_2: 'Jordan B. Peterson' },
-		{ icon1: '📖', col_1: 'Hard Thing About Hard Things', icon2: '✍️', col_2: 'Ben Horowitz' },
+		{ icon1: '📖', col_1: 'The 48 Laws of Power', icon2: '✍️', col_2: 'The 48 Laws of Power' },
+		{ icon1: '📖', col_1: 'Thus Spoke Zarathustra', icon2: '✍️', col_2: 'Friedrich Nietzsche' },
+		{ icon1: '📖', col_1: 'The secrets of the millionaire mind', icon2: '✍️', col_2: 'T. Harv Eker' },
 		{ icon1: '📖', col_1: 'Zero to One', icon2: '✍️', col_2: 'Peter Thiel' },
-		{ icon1: '📖', col_1: 'Rework', icon2: '✍️', col_2: 'Jason Fried • David Heinemeier Hanson' },
+		{ icon1: '📖', col_1: 'Atomic Habits', icon2: '✍️', col_2: 'James Clear' },
 		{ icon1: '📖', col_1: 'Delivering Happiness', icon2: '✍️', col_2: 'Tony Hsieh' },
 		{
 			icon1: '📖',
@@ -17,7 +17,7 @@
 		},
 		{ icon1: '📖', col_1: 'Remote', icon2: '✍️', col_2: 'Jason Fried • David Heinemeier Hanson' },
 		{ icon1: '📖', col_1: 'Shoe Dog', icon2: '✍️', col_2: 'Phil Knight' },
-		{ icon1: '📖', col_1: 'Crazy Love', icon2: '✍️', col_2: 'Francis Chan' },
+		{ icon1: '📖', col_1: 'Rich Dad, Poor Dad', icon2: '✍️', col_2: 'Robert Kiyosaki y Sharon Lechter' },
 		{
 			icon1: '📖',
 			col_1: 'Tocqueville and the American Experiment',

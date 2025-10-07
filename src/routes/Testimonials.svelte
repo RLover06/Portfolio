@@ -21,10 +21,10 @@
 			image: '/michael.png',
 		},
 		{
-			Texto: "Trabajar con Over Regino fue una experiencia realmente fantástica. Demuestra una sólida ética de trabajo, es muy receptivo y se comunica eficazmente. Obtuvo excelentes resultados y se integró a la perfección con el equipo",
+			text: "Working with Over Regino was a truly fantastic experience. He demonstrates a strong work ethic, is very responsive, and communicates effectively. He achieved excellent results and integrated seamlessly with the team.",
 			author: 'Josh Yang',
 			company: 'MLytica',
-			image: 'josh.jpg',
+			image: '/josh.jpg',
 		},
 	];
 
