@@ -36,43 +36,37 @@
 	];
 
 	const movies = [
-		{ icon1: '🎥', col_1: "You've Got Mail" },
+		{ icon1: '🎥', col_1: "Oppenheimer" },
 		{ icon1: '🎥', col_1: 'Interstellar' },
-		{ icon1: '🎥', col_1: 'Blood Diamond' },
-		{ icon1: '🎥', col_1: 'Angels in the Outfield' },
-		{ icon1: '🎥', col_1: 'Lord of the Rings (Trilogy)' },
-		{ icon1: '🎥', col_1: 'Gangs of New York' },
-		{ icon1: '🎥', col_1: '100 Foot Journey' },
-		{ icon1: '🎥', col_1: 'The Matrix' },
-		{ icon1: '🎥', col_1: 'Training Day' },
-		{ icon1: '🎥', col_1: 'Catch Me If You Can' },
+		{ icon1: '🎥', col_1: 'Einstein and Eddington' },
+		{ icon1: '🎥', col_1: 'A Spacetime Odyssey' },
+		{ icon1: '🎥', col_1: 'an exceptional gift' },
+		{ icon1: '🎥', col_1: 'The measurement of the world' },
+		{ icon1: '🎥', col_1: 'Social network' },
+		{ icon1: '🎥', col_1: 'Radioactive' },
+		{ icon1: '🎥', col_1: 'lucy' },
+		{ icon1: '🎥', col_1: 'Unlimited' },
 	];
 
 	const shows = [
-		{ icon1: '📺', col_1: 'Severance' },
-		{ icon1: '📺', col_1: 'Suits' },
+		{ icon1: '📺', col_1: 'The Big Bang Theory' },
+		{ icon1: '📺', col_1: 'Two and a Half Men' },
 		{ icon1: '📺', col_1: "That 70's Show" },
-		{ icon1: '📺', col_1: 'Body Guard' },
-		{ icon1: '📺', col_1: 'Line of Duty' },
-		{ icon1: '📺', col_1: 'Dexter' },
-		{ icon1: '📺', col_1: 'Cheers' },
-		{ icon1: '📺', col_1: 'Yu Yu Hakusho' },
-		{ icon1: '📺', col_1: 'True Detective' },
-		{ icon1: '📺', col_1: 'Fargo' },
+		{ icon1: '📺', col_1: 'Cosmos' },
+		{ icon1: '📺', col_1: 'One Piece' },
+		{ icon1: '📺', col_1: 'Dragon Ball' },
+		{ icon1: '📺', col_1: 'Lucifer' },
+		{ icon1: '📺', col_1: 'The Money Heist' },
+		{ icon1: '📺', col_1: 'The Walking Dead' },
+		{ icon1: '📺', col_1: 'Breaking Bad' },
 	];
 
 	const places = [
 		{
 			icon1: '📍',
-			col_1: 'The Woodlands, Texas',
+			col_1: 'Buenavista, Cordoba',
 			icon2: '⭐️',
 			col_2: "I'm a hometown kind of guy",
-		},
-		{
-			icon1: '📍',
-			col_1: 'Tenerife, Spain',
-			icon2: '⭐️',
-			col_2: 'Incredible amount of microclimates',
 		},
 		{
 			icon1: '📍',
@@ -86,64 +80,27 @@
 			icon2: '⭐️',
 			col_2: 'Perfectly slow pace of life',
 		},
-		{
-			icon1: '📍',
-			col_1: 'Denver, Colorado',
-			icon2: '⭐️',
-			col_2: 'Lived here for a year, Rocky Mountain Air',
-		},
-		{ icon1: '📍', col_1: 'Papagayo, Costa Rica', icon2: '⭐️', col_2: 'Great family memories' },
-		{
-			icon1: '📍',
-			col_1: 'Rome, Italy',
-			icon2: '⭐️',
-			col_2: 'If Rome can fall, nothing is forever',
-		},
-		{ icon1: '📍', col_1: 'Maui, Hawaii', icon2: '⭐️', col_2: 'Never been more relaxed' },
-		{ icon1: '📍', col_1: 'Nassau, Bahamas', icon2: '⭐️', col_2: 'More fond family memories' },
-		{ icon1: '📍', col_1: 'Cusco, Peru', icon2: '⭐️', col_2: 'Ancient' },
-		{ icon1: '📍', col_1: 'Lima, Peru', icon2: '⭐️', col_2: 'Ceviche' },
+
 		{
 			icon1: '📍',
 			col_1: 'Florence, Italy',
 			icon2: '⭐️',
 			col_2: 'Refreshing taste of craftsmanship',
 		},
-		{
-			icon1: '📍',
-			col_1: 'San Pedro de Atacama, Chile',
-			icon2: '⭐️',
-			col_2: 'Surreal landscapes',
-		},
-		{ icon1: '📍', col_1: 'Kauai, Hawaii', icon2: '⭐️', col_2: 'Classic family memories' },
-		{
-			icon1: '📍',
-			col_1: 'Grand Cayman, Cayman Islands',
-			icon2: '⭐️',
-			col_2: 'Islands are easy to love, stringrays!',
-		},
-		{ icon1: '📍', col_1: 'Lübbecke, Germany', icon2: '⭐️', col_2: 'First taste of Europe' },
+
 		{
 			icon1: '📍',
 			col_1: 'Jardín, Colombia',
 			icon2: '⭐️',
 			col_2: "Named 'Garden' in Spanish for its beauty",
 		},
-		{ icon1: '📍', col_1: 'Madrid, Spain', icon2: '⭐️', col_2: 'All around underrated' },
-		{ icon1: '📍', col_1: 'Granada, Spain', icon2: '⭐️', col_2: 'Creativity that inspires' },
-		{ icon1: '📍', col_1: 'Paracas, Perú', icon2: '⭐️', col_2: 'Animals all over the place' },
 		{
 			icon1: '📍',
 			col_1: 'Valle de Corcoa, Colombia',
 			icon2: '⭐️',
 			col_2: 'Tallest palm trees in the world',
 		},
-		{
-			icon1: '📍',
-			col_1: 'Villa de Leyva, Colombia',
-			icon2: '⭐️',
-			col_2: 'Great mix of relaxation + things to do',
-		},
+
 		{
 			icon1: '📍',
 			col_1: 'Santa Marta, Colombia',
