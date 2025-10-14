@@ -22,14 +22,9 @@
 			imgURL: 'node.png',
 		},
 		{
-			name: 'Bun',
-			linkURL: 'https://bun.sh',
-			imgURL: 'bun.svg',
-		},
-		{
-			name: 'Fastify',
-			linkURL: 'https://www.fastify.io/',
-			imgURL: 'fastify.png',
+			name: 'Fortran',
+			linkURL: 'https://nodejs.org/en',
+			imgURL: 'node.png',
 		},
 		{
 			name: 'Svelte',
@@ -55,21 +50,6 @@
 			name: 'Astro',
 			linkURL: 'https://astro.build/',
 			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg',
-		},
-		{
-			name: 'Vite.js',
-			linkURL: 'https://vitejs.dev/',
-			imgURL: 'vite.png',
-		},
-		{
-			name: 'Supabase',
-			linkURL: 'https://supabase.com/',
-			imgURL: 'supabase.png',
-		},
-		{
-			name: 'MongoDB',
-			linkURL: 'https://www.mongodb.com/',
-			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
 		},
 		{
 			name: 'Firebase',
@@ -175,16 +155,6 @@
 				'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg',
 		},
 		{
-			name: 'Heroku',
-			linkURL: 'https://heroku.com/',
-			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg',
-		},
-		{
-			name: 'Mapbox',
-			linkURL: 'https://www.mapbox.com/',
-			imgURL: 'mapbox.png',
-		},
-		{
 			name: 'Stripe',
 			linkURL: 'https://stripe.com/',
 			imgURL: 'https://www.solodev.com/file/2e7ff4de-48b3-11ed-bb2e-0eaef3759f5f/stripe-icon.png',
@@ -220,11 +190,18 @@
 			linkURL: 'https://lucia-auth.com/',
 			imgURL: 'lucia.png',
 		},
+	
 		{
-			name: 'Driver.js',
-			linkURL: 'https://driverjs.com/',
-			imgURL: 'driver.png',
+			name: 'latex',
+			linkURL: 'https://www.texstudio.org/',
+			imgURL:
+				'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/TeXstudio_Logo.svg/768px-TeXstudio_Logo.svg.png?20180709192156',
 		},
+		{
+			name: 'Matlab',
+			linkURL: 'https://www.mathworks.com/products/matlab.html',
+			imgURL: 'https://unade.edu.mx/wp-content/uploads/2025/02/matlab-scaled.webp',
+		}
 	];
 
 	onMount(() => {
