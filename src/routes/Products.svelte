@@ -7,7 +7,7 @@
 			name: 'latex',
 			linkURL: 'https://www.texstudio.org/',
 			imgURL:
-				'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+				'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/TeXstudio_Logo.svg/768px-TeXstudio_Logo.svg.png?20180709192156',
 		},
 		{
 			name: 'Matlab',
