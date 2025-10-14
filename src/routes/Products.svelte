@@ -240,39 +240,7 @@
 		<div
 			class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 		>
-			<Product
-				title="VerticalSpanish.com"
-				description="Vertical Spanish allows Spanish students to study spanish verbs in a world that inspires. Conjugators are notorious for being overpopulated with ads, but not here!"
-				linkURL="https://verticalspanish.com"
-				imgURL="landscape.png"
-				icons={vertical_spanish_icons}
-			/>
-
-			<Product
-				title="CampaginHero.io"
-				description="CampaignHero.io is a search/discovery platform for 14,200 email designs. It leverages vector databases to enable semantic and image-based search."
-				linkURL="https://CampaginHero.io"
-				imgURL="ch-demo.png"
-				icons={campaign_hero_icons}
-			/>
-
-			<Product
-				title="AirMailer.io"
-				description="AirMailer.io allows marketers to generate mailing list with just a few clicks. I like to think of it as a vending machine for addresses. (94 Million Addresses)"
-				linkURL="https://airmailer.io"
-				imgURL="airmailer_ss.png"
-				icons={air_mailer_icons}
-				legacy={true}
-			/>
-
-			<Product
-				title="UpScout.io"
-				description="Messaging and filtering system for UpWork. We allow freelancers to filter out the noise and focus on the jobs that matter. Sit back and let the jobs come to you."
-				linkURL="https://upscout.io"
-				imgURL="upscout_ss.png"
-				icons={up_scout_icons}
-				legacy={true}
-			/>
+	
 
 			<Product
 				title="DataForest.io"
