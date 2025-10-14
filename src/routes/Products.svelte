@@ -15,7 +15,6 @@
 			imgURL: 'https://unade.edu.mx/wp-content/uploads/2025/02/matlab-scaled.webp',
 		},
 		
-		{ name: 'Shadcn UI', linkURL: 'https://ui.shadcn.com/', imgURL: '/shadcn-ui.png' },
 		{ name: 'Vercel', linkURL: 'https://vercel.com/', imgURL: 'vercel.png' },
 	];
 
@@ -57,6 +56,7 @@
 		{ name: 'Lucia Auth', linkURL: 'https://lucia-auth.com/', imgURL: 'lucia.png' },
 		{ name: 'Vitest', linkURL: 'https://vitest.dev/', imgURL: 'vite-test.png' },
 		{ name: 'Vercel', linkURL: 'https://vercel.com/', imgURL: 'vercel.png' },
+		{ name: 'Shadcn UI', linkURL: 'https://ui.shadcn.com/', imgURL: '/shadcn-ui.png' },
 	];
 
 	const up_scout_icons = [
