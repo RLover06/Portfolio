@@ -23,8 +23,8 @@
 		},
 		{
 			name: 'Python',
-			linkURL: 'https://fortran-lang.org/#',
-			imgURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Fortran_logo.svg/1200px-Fortran_logo.svg.png',
+			linkURL: 'https://www.python.org/',
+			imgURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png',
 		},
 		{
 			name: 'Fortran',
