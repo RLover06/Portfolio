@@ -2,33 +2,19 @@
 	import Product from '$lib/components/Product.svelte';
 	import FeaturedProduct from './FeaturedProduct.svelte';
 
-	const campaign_hero_icons = [
+	const tesis_icons = [
 		{
-			name: 'TypeScript',
-			linkURL: 'https://www.typescriptlang.org/',
+			name: 'latex',
+			linkURL: 'https://www.texstudio.org/',
 			imgURL:
 				'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
 		},
 		{
-			name: 'Svelte',
+			name: 'Matlab',
 			linkURL: 'https://svelte.dev/',
 			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg',
 		},
-		{ name: 'Bun', linkURL: 'https://bun.sh', imgURL: 'bun.svg' },
-		{ name: 'Vite.js', linkURL: 'https://vitejs.dev/', imgURL: 'vite.png' },
-		{
-			name: 'Pinecone',
-			linkURL: 'https://www.pinecone.io',
-			imgURL: 'https://yepcode.io/docs/img/integrations/icons/pinecone.svg',
-		},
-		{ name: 'Replicate', linkURL: 'https://replicate.com', imgURL: 'replicate.jpg' },
-		{ name: 'Cloudinary', linkURL: 'https://cloudinary.com/', imgURL: 'cloudinary.png' },
-		{
-			name: 'Tailwind CSS',
-			linkURL: 'https://tailwindcss.com/',
-			imgURL:
-				'https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/tailwindcss/tailwindcss-original.svg',
-		},
+		
 		{ name: 'Shadcn UI', linkURL: 'https://ui.shadcn.com/', imgURL: '/shadcn-ui.png' },
 		{ name: 'Vercel', linkURL: 'https://vercel.com/', imgURL: 'vercel.png' },
 	];
@@ -245,7 +231,7 @@
 				description="In my thesis work, I designed a tool in MATLAB for the automatic fitting of Raman spectra of Ce-doped ZnO. This allows the identification, modeling, and comparison of vibrational modes using pseudo-Voigt profiles, optimizing the accuracy of spectral analysis."
 				linkURL="https://repositorio.unicordoba.edu.co/entities/publication/e9e043f1-e3ea-4aa8-9bfe-7ced5d25102f"
 				imgURL="Tesis.png"
-				icons={data_forest_icons}
+				icons={tesis_icons}
 				legacy={true}
 			/>	
 
