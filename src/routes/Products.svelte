@@ -11,8 +11,8 @@
 		},
 		{
 			name: 'Matlab',
-			linkURL: 'https://svelte.dev/',
-			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg',
+			linkURL: 'https://www.mathworks.com/products/matlab.html',
+			imgURL: 'https://unade.edu.mx/wp-content/uploads/2025/02/matlab-scaled.webp',
 		},
 		
 		{ name: 'Shadcn UI', linkURL: 'https://ui.shadcn.com/', imgURL: '/shadcn-ui.png' },
