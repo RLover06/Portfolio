@@ -3,7 +3,7 @@
 >
 	<div class="flex justify-center md:order-2">
 		<a
-			href="https://github.com/diamondalltheway"
+			href="https://github.com/RLover06"
 			target="_blank"
 			class="ml-6 text-gray-600 hover:text-gray-700"
 		>
