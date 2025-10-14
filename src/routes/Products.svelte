@@ -240,7 +240,14 @@
 		<div
 			class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 		>
-	
+		<Product
+				title="Degree Thesis"
+				description="In my thesis work, I designed a tool in MATLAB for the automatic fitting of Raman spectra of Ce-doped ZnO. This allows the identification, modeling, and comparison of vibrational modes using pseudo-Voigt profiles, optimizing the accuracy of spectral analysis."
+				linkURL="https://repositorio.unicordoba.edu.co/entities/publication/e9e043f1-e3ea-4aa8-9bfe-7ced5d25102f"
+				imgURL="Tesis.png"
+				icons={data_forest_icons}
+				legacy={true}
+			/>	
 
 			<Product
 				title="DataForest.io"
