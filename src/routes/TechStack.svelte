@@ -22,9 +22,14 @@
 			imgURL: 'node.png',
 		},
 		{
+			name: 'Python',
+			linkURL: 'https://fortran-lang.org/#',
+			imgURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Fortran_logo.svg/1200px-Fortran_logo.svg.png',
+		},
+		{
 			name: 'Fortran',
-			linkURL: 'https://nodejs.org/en',
-			imgURL: 'node.png',
+			linkURL: 'https://fortran-lang.org/#',
+			imgURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Fortran_logo.svg/1200px-Fortran_logo.svg.png',
 		},
 		{
 			name: 'Svelte',
