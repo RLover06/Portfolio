@@ -189,7 +189,7 @@
 			name: 'Matlab',
 			linkURL: 'https://www.mathworks.com/products/matlab.html',
 			imgURL: 'https://unade.edu.mx/wp-content/uploads/2025/02/matlab-scaled.webp',
-		}	
+		},
 		{
 			name: 'latex',
 			linkURL: 'https://www.texstudio.org/',
