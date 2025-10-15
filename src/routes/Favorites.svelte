@@ -199,14 +199,7 @@
 
 		<!-- GOAT -->
 		<Accordion.Item value="goat">
-			<Accordion.Trigger class="hover:no-underline">
-				<span class="text-lg font-medium text-green-700"> &#127936; Sports 🥊 </span>
-			</Accordion.Trigger>
-			<Accordion.Content>
-				<dd class="mt-2 pr-12">
-					<p class="ml-4 text-xl font-bold text-gray-200">Soccer 👟, Rugby 🏈, Boxing 🥊🥊</p>
-				</dd>
-			</Accordion.Content>
+			
 		</Accordion.Item>
 	</Accordion.Root>
 </div>
