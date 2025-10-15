@@ -16,7 +16,7 @@
 			col_2: 'George Orwell',
 		},
 		{ icon1: '📖', col_1: 'Awaken The Giant Within', icon2: '✍️', col_2: 'Tony Robbins' },
-		{ icon1: '📖', col_1: 'Shoe Dog', icon2: '✍️', col_2: 'Phil Knight' },
+		{ icon1: '📖', col_1: 'The Magic of Thinking Big', icon2: '✍️', col_2: 'David J. Schwartz' },
 		{ icon1: '📖', col_1: 'Rich Dad, Poor Dad', icon2: '✍️', col_2: 'Robert Kiyosaki y Sharon Lechter' },
 		{
 			icon1: '📖',
@@ -24,7 +24,7 @@
 			icon2: '✍️',
 			col_2: 'James Stewart, Lothar Redlin, and Saleem Watson',
 		},
-		{ icon1: '📖', col_1: 'Extreme Ownership', icon2: '✍️', col_2: 'Jocko Wilink • Leif Babin' },
+		{ icon1: '📖', col_1: 'Secrets of the Millionaire Mind', icon2: '✍️', col_2: 'T. Harv Eker' },
 		{ icon1: '📖', col_1: 'Outliers', icon2: '✍️', col_2: 'Malcom Gladwell' },
 		{ icon1: '📖', col_1: 'David and Goliath', icon2: '✍️', col_2: 'Malcom Gladwell' },
 		{
