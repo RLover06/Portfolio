@@ -20,6 +20,36 @@
 
 	const air_mailer_icons = [
 		{
+			name: 'Bun',
+			linkURL: 'https://bun.sh',
+			imgURL: 'bun.svg',
+		},
+		{
+			name: 'Astro',
+			linkURL: 'https://astro.build/',
+			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg',
+		},
+		{
+			name: 'Fastify',
+			linkURL: 'https://www.fastify.io/',
+			imgURL: 'fastify.png',
+		},
+				{
+			name: 'Node.js',
+			linkURL: 'https://nodejs.org/en',
+			imgURL: 'node.png',
+		},
+		{
+			name: 'Driver.js',
+			linkURL: 'https://driverjs.com/',
+			imgURL: 'driver.png',
+		},
+		{
+			name: 'Drizzle',
+			linkURL: 'https://www.drizzle.team/',
+			imgURL: 'drizzle.png',
+		},
+		{
 			name: 'TypeScript',
 			linkURL: 'https://www.typescriptlang.org/',
 			imgURL:

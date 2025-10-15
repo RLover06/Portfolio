@@ -52,16 +52,6 @@
 			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg',
 		},
 		{
-			name: 'Astro',
-			linkURL: 'https://astro.build/',
-			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg',
-		},
-		{
-			name: 'Fastify',
-			linkURL: 'https://www.fastify.io/',
-			imgURL: 'fastify.png',
-		},
-		{
 			name: 'Vite.js',
 			linkURL: 'https://vitejs.dev/',
 			imgURL: 'vite.png',
@@ -80,6 +70,16 @@
 			name: 'Firebase',
 			linkURL: 'https://firebase.google.com/',
 			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
+		},
+		{
+			name: 'Heroku',
+			linkURL: 'https://heroku.com/',
+			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg',
+		},
+		{
+			name: 'Mapbox',
+			linkURL: 'https://www.mapbox.com/',
+			imgURL: 'mapbox.png',
 		},
 		{
 			name: 'Pinecone',
