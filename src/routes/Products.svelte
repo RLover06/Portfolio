@@ -91,6 +91,31 @@
 
 	const up_scout_icons = [
 		{
+			name: 'Daisy UI',
+			linkURL: 'https://daisyui.com/',
+			imgURL: 'daisy-ui.png',
+		},
+		{
+			name: 'Vitest',
+			linkURL: 'https://vitest.dev/',
+			imgURL: 'vite-test.png',
+		},
+		{
+			name: 'Playwright',
+			linkURL: 'https://playwright.dev/',
+			imgURL: 'playwright.webp',
+		},
+		{
+			name: 'Jest',
+			linkURL: 'https://jestjs.io/',
+			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
+		},
+		{
+			name: 'Zod',
+			linkURL: 'https://zod.dev/',
+			imgURL: 'zod.webp',
+		},
+		{
 			name: 'TypeScript',
 			linkURL: 'https://www.typescriptlang.org/',
 			imgURL:

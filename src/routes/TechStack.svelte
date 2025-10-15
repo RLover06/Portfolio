@@ -92,11 +92,6 @@
 			imgURL: 'prisma.png',
 		},
 		{
-			name: 'Drizzle',
-			linkURL: 'https://www.drizzle.team/',
-			imgURL: 'drizzle.png',
-		},
-		{
 			name: 'Postgres',
 			linkURL: 'https://www.postgresql.org/',
 			imgURL:
@@ -127,31 +122,6 @@
 			name: 'Shadcn UI',
 			linkURL: 'https://ui.shadcn.com/',
 			imgURL: 'shadcn-ui.png',
-		},
-		{
-			name: 'Daisy UI',
-			linkURL: 'https://daisyui.com/',
-			imgURL: 'daisy-ui.png',
-		},
-		{
-			name: 'Vitest',
-			linkURL: 'https://vitest.dev/',
-			imgURL: 'vite-test.png',
-		},
-		{
-			name: 'Playwright',
-			linkURL: 'https://playwright.dev/',
-			imgURL: 'playwright.webp',
-		},
-		{
-			name: 'Jest',
-			linkURL: 'https://jestjs.io/',
-			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
-		},
-		{
-			name: 'Zod',
-			linkURL: 'https://zod.dev/',
-			imgURL: 'zod.webp',
 		},
 		{
 			name: 'Docker',
