@@ -25,13 +25,13 @@
 			col_2: 'James Stewart, Lothar Redlin, and Saleem Watson',
 		},
 		{ icon1: '📖', col_1: 'Secrets of the Millionaire Mind', icon2: '✍️', col_2: 'T. Harv Eker' },
-		{ icon1: '📖', col_1: 'Outliers', icon2: '✍️', col_2: 'Malcom Gladwell' },
+		{ icon1: '📖', col_1: 'The Richest Man in Babylon ', icon2: '✍️', col_2: 'George Samuel Clason' },
 		{ icon1: '📖', col_1: 'David and Goliath', icon2: '✍️', col_2: 'Malcom Gladwell' },
 		{
 			icon1: '📖',
-			col_1: 'A New Grammar Reference of Modern Spanish',
+			col_1: 'Thinking, Fast and Slow',
 			icon2: '✍️',
-			col_2: 'John Butt • Carmen Benjamin',
+			col_2: 'Daniel Kahneman',
 		},
 	];
 
