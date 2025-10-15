@@ -204,7 +204,7 @@
 			</Accordion.Trigger>
 			<Accordion.Content>
 				<dd class="mt-2 pr-12">
-					<p class="ml-4 text-xl font-bold text-gray-200">Soccer 👟, Rugby 🏈, boxing 🥊🥊</p>
+					<p class="ml-4 text-xl font-bold text-gray-200">Soccer 👟, Rugby 🏈, Boxing 🥊🥊</p>
 				</dd>
 			</Accordion.Content>
 		</Accordion.Item>
