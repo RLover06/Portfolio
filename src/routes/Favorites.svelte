@@ -81,12 +81,6 @@
 			col_2: 'Perfectly slow pace of life',
 		},
 
-		{
-			icon1: '📍',
-			col_1: 'Florence, Italy',
-			icon2: '⭐️',
-			col_2: 'Refreshing taste of craftsmanship',
-		},
 
 		{
 			icon1: '📍',
