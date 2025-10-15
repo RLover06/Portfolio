@@ -28,7 +28,7 @@
 		<Testimonials />
 		<Letter />
 		<TechStack />
-		<OpenSource />
+<!-- <OpenSource /> -->
 		<Products />
 		<LaunchSchool />
 		<Contact />
