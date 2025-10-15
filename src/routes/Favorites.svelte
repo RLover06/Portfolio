@@ -15,7 +15,7 @@
 			icon2: '✍️',
 			col_2: 'George Orwell',
 		},
-		{ icon1: '📖', col_1: 'Remote', icon2: '✍️', col_2: 'Jason Fried • David Heinemeier Hanson' },
+		{ icon1: '📖', col_1: 'Awaken The Giant Within', icon2: '✍️', col_2: 'Tony Robbins' },
 		{ icon1: '📖', col_1: 'Shoe Dog', icon2: '✍️', col_2: 'Phil Knight' },
 		{ icon1: '📖', col_1: 'Rich Dad, Poor Dad', icon2: '✍️', col_2: 'Robert Kiyosaki y Sharon Lechter' },
 		{
