@@ -10,12 +10,12 @@
 	let isHovered: boolean = false;
 
 	const goals = [
-		{ icon: '✅', text: 'Piratas del Caribe: La Maldición del Perla Negra (2003)' },
-	{ icon: '✅', text: 'Piratas del Caribe: El Cofre de la Muerte (2006)' },
-	{ icon: '✅', text: 'Piratas del Caribe: En el Fin del Mundo (2007)' },
-	{ icon: '✅', text: 'Piratas del Caribe: En Mareas Misteriosas (2011)' },
-	{ icon: '🔲', text: 'Piratas del Caribe: La Venganza de Salazar (2017)' },
-	];
+		{ icon: '✅', text: "Pirates of the Caribbean: The Curse of the Black Pearl (2003)" },
+        { icon: '✅', text: "Pirates of the Caribbean: Dead Man's Chest (2006)" },
+        { icon: '✅', text: "Pirates of the Caribbean: At World's End (2007)" },
+        { icon: '✅', text: 'Pirates of the Caribbean: On Stranger Tides (2011)' },
+        { icon: '🔲', text: "Pirates of the Caribbean: Salazar's Revenge (2017)" },
+        ];
 </script>
 
 <div
