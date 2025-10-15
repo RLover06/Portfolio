@@ -185,18 +185,17 @@
 			linkURL: 'https://lucia-auth.com/',
 			imgURL: 'lucia.png',
 		},
-	
+		{
+			name: 'Matlab',
+			linkURL: 'https://www.mathworks.com/products/matlab.html',
+			imgURL: 'https://unade.edu.mx/wp-content/uploads/2025/02/matlab-scaled.webp',
+		}	
 		{
 			name: 'latex',
 			linkURL: 'https://www.texstudio.org/',
 			imgURL:
 				'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/TeXstudio_Logo.svg/768px-TeXstudio_Logo.svg.png?20180709192156',
 		},
-		{
-			name: 'Matlab',
-			linkURL: 'https://www.mathworks.com/products/matlab.html',
-			imgURL: 'https://unade.edu.mx/wp-content/uploads/2025/02/matlab-scaled.webp',
-		}
 	];
 
 	onMount(() => {
