@@ -48,7 +48,7 @@
 			<span class="text-xl" class:hithere={isHoveredLS}>🎉</span>
 		</p>
 		<Button
-			text={'View Curriculum'}
+			text={'University'}
 			href={'https://www.unicordoba.edu.co/'}
 			targetBlank={true}
 			bgColor={'hsl(349, 98%, 58%)'}
