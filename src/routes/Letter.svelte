@@ -184,7 +184,7 @@ and it has quickly become one of my favorites.
 								class="mt-2 rounded-md border-[3px] border-dashed border-indigo-400 p-4"
 							>
 							<p class="my-4 text-lg font-medium text-black">
-								I set myself the challenge of watching the entire <span class="font-bold text-indigo-500">Pirates of the Caribbean</span> saga in Spanish to improve my listening skills and cultural understanding.  
+								I set myself the challenge of watching the entire <span class="font-bold text-indigo-500">Pirates of the Caribbean</span> saga in English to improve my listening skills understanding.  
 								With all its movies combined, it was the perfect adventure to dive into the language.  
 								<span class="font-bold text-indigo-500">Challenge Accepted. 🏴‍☠️</span>
 							</p>
