@@ -57,6 +57,26 @@
 			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg',
 		},
 		{
+			name: 'Fastify',
+			linkURL: 'https://www.fastify.io/',
+			imgURL: 'fastify.png',
+		},
+		{
+			name: 'Vite.js',
+			linkURL: 'https://vitejs.dev/',
+			imgURL: 'vite.png',
+		},
+		{
+			name: 'Supabase',
+			linkURL: 'https://supabase.com/',
+			imgURL: 'supabase.png',
+		},
+		{
+			name: 'MongoDB',
+			linkURL: 'https://www.mongodb.com/',
+			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
+		},
+		{
 			name: 'Firebase',
 			linkURL: 'https://firebase.google.com/',
 			imgURL: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
