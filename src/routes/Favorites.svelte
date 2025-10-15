@@ -199,7 +199,6 @@
 
 		<!-- GOAT -->
 		<Accordion.Item value="goat">
-			
 		</Accordion.Item>
 	</Accordion.Root>
 </div>
