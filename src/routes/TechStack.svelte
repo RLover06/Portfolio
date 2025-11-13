@@ -24,12 +24,14 @@
 		{
 			name: 'Python',
 			linkURL: 'https://www.python.org/',
-			imgURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png',
+			imgURL:
+				'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png',
 		},
 		{
 			name: 'Fortran',
 			linkURL: 'https://fortran-lang.org/#',
-			imgURL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Fortran_logo.svg/1200px-Fortran_logo.svg.png',
+			imgURL:
+				'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Fortran_logo.svg/1200px-Fortran_logo.svg.png',
 		},
 		{
 			name: 'Svelte',
@@ -101,6 +103,11 @@
 			name: 'MySQL',
 			linkURL: 'https://www.mysql.com/',
 			imgURL: 'mysql.png',
+		},
+		{
+			name: 'MariaDB',
+			linkURL: 'https://mariadb.org/',
+			imgURL: 'mariadb.jpg',
 		},
 		{
 			name: 'HTML',

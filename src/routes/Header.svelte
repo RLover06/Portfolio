@@ -35,7 +35,7 @@
 				Native: <span class="mx-1 text-xl">ES</span>
 			</li>
 			<li class="relative flex items-center px-1 py-1 transition hover:text-indigo-700">
-				B2: <span class="mx-1 text-xl">us</span>
+				B1: <span class="mx-1 text-xl">us</span>
 			</li>
 		</ul>
 	</div>
@@ -47,7 +47,7 @@
 			{#each navItems as { href, text }}
 				<li>
 					<a
-						class="hover:motion-preset-expand hover:motion-preset-confetti relative block px-3 py-2 transition hover:text-indigo-700"
+						class="relative block px-3 py-2 transition hover:motion-preset-expand hover:motion-preset-confetti hover:text-indigo-700"
 						{href}
 					>
 						{text}
